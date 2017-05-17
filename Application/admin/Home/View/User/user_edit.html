@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 管理员信息修改</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="__PUBLIC__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/css/animate.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/style.css?v=4.1.0" rel="stylesheet">
+    <!---图像上传--->
+    <style>
+        .file{position:relative;opacity:0;}
+        .float-input{width:75%;position:absolute;}
+        .file-upload-btn{position:absolute;right:3%;}
+    </style>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>新增管理员</h5>
+                    <!--<div class="ibox-tools">-->
+                    <!--<a class="collapse-link">-->
+                    <!--<i class="fa fa-chevron-up"></i>-->
+                    <!--</a>-->
+                    <!--<a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">-->
+                    <!--<i class="fa fa-wrench"></i>-->
+                    <!--</a>-->
+                    <!--<ul class="dropdown-menu dropdown-user">-->
+                    <!--<li><a href="form_basic.html#">选项1</a>-->
+                    <!--</li>-->
+                    <!--<li><a href="form_basic.html#">选项2</a>-->
+                    <!--</li>-->
+                    <!--</ul>-->
+                    <!--<a class="close-link">-->
+                    <!--<i class="fa fa-times"></i>-->
+                    <!--</a>-->
+                    <!--</div>-->
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal m-t" id="signupForm" method="post" action="{:U('User/user_add')}" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">登录名：</label>
+                            <div class="col-sm-8">
+                                <input id="firstname" value="{$info.loginname}" name="firstname" class="form-control" type="text">
+                                <span class="help-block m-b-none"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">手机：</label>
+                            <div class="col-sm-8">
+                                <input id="mobile" name="mobile" value="{$info.mobile}" class="form-control" type="text" aria-required="true" aria-invalid="false" class="valid">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">E-mail：</label>
+                            <div class="col-sm-8">
+                                <input id="email" name="email" value="{$info.email}" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">角色：</label>
+                            <div class="col-sm-8" >
+                                <foreach name="roles" item="vo">
+                                    <input style="margin-left:1px;" type="radio" value="{$vo.id}" <if condition="$vo['id'] eq $info['group_id']">checked </if> name="roleid" > <i></i> {$vo.title}</label>
+                                </foreach>
+                                <span class="help-block m-b-none"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">头像：</label>
+                            <div class="col-sm-8">
+                                <input class="form-control float-input" type='text' value="" name='textfield' id='textfield' />
+                                <button class="btn btn-success file-upload-btn" class="btn btn-success" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">上传</span></button>
+                                <input class="form-control file" type="file"  name="fileField" id="fileField" size="28" onchange="showi(this.value);" />
+                                <span class="help-block m-b-none"></span>
+                            </div>
+                        </div>
+                        <script>
+                            function showi(val){
+                                //var fr = new FileReader();
+                                document.getElementById('textfield').value=val;
+                                var showImg = document.getElementById('showimg');
+                                var file = document.getElementById('fileField');
+                                var f = document.getElementById('fileField').files[0];
+                                var ext=file.value.substring(file.value.lastIndexOf(".")+1).toLowerCase();
+                                // gif在IE浏览器暂时无法显示
+                                if(ext!='png'&&ext!='jpg'&&ext!='jpeg'){
+                                    alert("图片的格式必须为png或者jpg或者jpeg格式！");
+                                    return;
+                                }
+
+                                var isIE = navigator.userAgent.match(/MSIE/)!= null,
+                                        isIE6 = navigator.userAgent.match(/MSIE 6.0/)!= null;
+                                if(isIE) {
+                                    file.select();
+                                    var reallocalpath = document.selection.createRange().text;
+
+                                    // IE6浏览器设置img的src为本地路径可以直接显示图片
+                                    if (isIE6) {
+                                        showImg.src = reallocalpath;
+                                    }else {
+                                        // 非IE6版本的IE由于安全问题直接设置img的src无法显示本地图片，但是可以通过滤镜来实现
+                                        showImg.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='image',src=\"" + reallocalpath + "\")";
+                                        // 设置img的src为base64编码的透明图片 取消显示浏览器默认图片
+                                        showImg.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==';
+                                    }
+                                }else {
+                                    var src = window.URL.createObjectURL(f);
+                                    document.getElementById('showimg1').style.display="none";
+                                    showImg.style.display = "block";
+                                    showImg.src = src;
+                                }
+                            }
+                        </script>
+                        <if condition="$info['avatar'] neq '' ">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"></label>
+                                <div class="col-sm-8">
+                                    <img id="showimg1" src="__DOC__/{$info.avatar}" style="width:110px;"/>
+                                </div>
+                            </div>
+                        </if>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-8">
+                                <img id="showimg" src="" style="width:110px;display:none;"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-8 col-sm-offset-3">
+                                <button class="btn btn-primary" type="submit">添加</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 全局js -->
+<script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.6"></script>
+
+<!-- 自定义js -->
+<script src="__PUBLIC__/js/content.js?v=1.0.0"></script>
+
+<!-- jQuery Validation plugin javascript-->
+<script src="__PUBLIC__/js/plugins/validate/jquery.validate.min.js"></script>
+<script src="__PUBLIC__/js/plugins/validate/messages_zh.min.js"></script>
+<script src="__PUBLIC__/js/demo/form-validate-demo1.js"></script>
+<script src="__PUBLIC__/js/plugins/validate/validate_expand.js"></script>
+
+<script type="text/javascript">
+</script>
+</body>
+</html>
