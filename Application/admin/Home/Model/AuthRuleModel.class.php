@@ -1,5 +1,6 @@
 <?php
 /**
+ * 获取用户对应的菜单信息
  * Created by PhpStorm.
  * User: guolixun
  * Date: 2017/5/10
@@ -7,6 +8,7 @@
  */
 namespace Home\Model;
 use Think\Model;
+use Think\Auth;
 
 class AuthRuleModel extends Model{
     protected $AUTHROLE;
@@ -21,13 +23,14 @@ class AuthRuleModel extends Model{
 
     private function menu_cache($data=null){
         if (empty($data)) {
-            $data = M("auth_rule")->field('id,title,pid')->select();
-            foreach($data as $k=>$v){
-                $data[$k]['name'] = $v['title'];
-                $data[$k]['pId'] = $v['pid'];
-                unset($data[$k]['title']);
-                unset($data[$k]['pid']);
-            }
+            $data = $this->getUserAuthMenus();
+//            $data = M("auth_rule")->field('id,title,pid')->where('')->select();
+//            foreach($data as $k=>$v){
+//                $data[$k]['name'] = $v['title'];
+//                $data[$k]['pId'] = $v['pid'];
+//                unset($data[$k]['title']);
+//                unset($data[$k]['pid']);
+ //           }
             F("AuthMenu", $data);
         } else {
             F("AuthMenu", $data);
@@ -35,22 +38,68 @@ class AuthRuleModel extends Model{
         return $data;
     }
 
-    /*递归
-    * 将节点转换成树形结构的数组
-    */
-    private function listToTree($id=0) {
-        $nodes = M("auth_rule");
-        $data = $nodes->where("pid=".$id)->fileds()->select();
-        if(empty($data)){
-            return null;
+    private function getUserAuthMenus(){
+        //获取用户所属用户组
+        $groups = $this->getGroup();
+        $ids = array();//保存用户所属用户组设置的所有权限规则id
+        foreach ($groups as $g) {
+            $ids = array_merge($ids, explode(',', trim($g['rules'], ',')));
         }
-        foreach ($data as $k=>$v){
-            $rescurtree =  $this->listToTree($v['id']);
-            if(null != $rescurtree){
-                $data[$k]['children'] = $rescurtree;
+        $ids = array_unique($ids);
+        if(empty($ids)){
+            return false;
+        }
+       return $this->getAuthLists($ids);
+    }
+
+    private function getAuthLists($ids){
+        $ids=array('2','3');
+        $map =array(
+            'id'=>array('in',$ids)
+        );
+        return $this->listToTree(M('auth_rule')->where($map)->select());
+    }
+
+    protected function getGroup(){
+        $uid = $_SESSION['USER_KEY']['id'] ? $_SESSION['USER_KEY']['id']:'';
+      //  static $groups = array();
+//        if (isset($groups[$uid]))
+//            return $groups[$uid];
+        $user_groups = M()
+            ->table('THINK_AUTH_GROUP_ACCESS'. ' a')
+            ->where("a.uid='$uid' and g.status='1'")
+            ->join('THINK_AUTH_GROUP'." g on a.group_id=g.id")
+            ->field('uid,group_id,title,rules')->select();
+        //$groups=$user_groups?:array();
+        return $user_groups;
+    }
+
+    /*
+    * 根据pid重新组装菜单信息
+    */
+    private function listToTree($list,$pk='id',$pid='pid',$child='_child',$root=0) {
+        // 创建Tree
+        $tree = array();
+        if(is_array($list)) {
+            // 创建基于主键的数组引用
+            $refer = array();
+            foreach ($list as $key => $data) {
+                $refer[$data[$pk]] =& $list[$key];
+            }
+            foreach ($list as $key => $data) {
+                // 判断是否存在parent
+                $parentId =  $data[$pid];
+                if ($root == $parentId) {
+                    $tree[] =& $list[$key];
+                }else{
+                    if (isset($refer[$parentId])) {
+                        $parent =& $refer[$parentId];
+                        $parent[$child][] =& $list[$key];
+                    }
+                }
             }
         }
-        return $data;
+        return $tree;
     }
 
 

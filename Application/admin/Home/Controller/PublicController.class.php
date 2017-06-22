@@ -7,6 +7,10 @@ use Think\Controller;
 class PublicController extends Controller{
 
 	public function login(){
+		if(!empty($_SESSION['USER_KEY'])){
+			//已经登录
+			$this->redirect('Index/index');
+		}
 		if(IS_POST){
 			$ADMIN = new AdminModel();
 			$pwd = $ADMIN->GetMd5Pwd(I('password','','string'));
@@ -24,6 +28,7 @@ class PublicController extends Controller{
 	//登出
 	public function logout(){
 		session_destroy();
+		CacheClear();
 		$this->redirect("Public/login");
 	}
 

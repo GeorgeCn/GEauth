@@ -19,3 +19,23 @@
     return $info   =   $upload->upload($files);
 }
 
+/*
+ * 清除Runtime下的DATA和Cache中的缓存
+ */
+function CacheClear(){
+    $fondorArr = array('DATA','Cache');
+    foreach ($fondorArr as $v){
+        $dh = opendir(TEMP_PATH.'/'.$v);
+        while ($file = readdir($dh)) {
+            if ($file != "." && $file != "..") {
+                $fullpath = TEMP_PATH . "/" . $file;
+                if (!is_dir($fullpath)) {
+                    unlink($fullpath);
+                } else {
+                    deldir($fullpath);
+                }
+            }
+        }
+    }
+}
+
