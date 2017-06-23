@@ -20,15 +20,29 @@
 }
 
 /*
- * 清除Runtime下的DATA和Cache中的缓存
+ * 清除文件缓存
  */
-function CacheClear(){
-    $fondorArr = array('DATA','Cache');
-    foreach ($fondorArr as $v){
-        $dh = opendir(TEMP_PATH.'/'.$v);
+function CacheClear($fileArr){
+    foreach ($fileArr as $v){
+       switch (strtoupper($v)){
+           case 'DATA':
+               _clear(DATA_PATH);
+           case 'CACHE':
+               _clear(CACHE_PATH);
+           case 'LOGS':
+               _clear(LOG_PATH);
+           case 'TEMP':
+               _clear(TEMP_PATH);
+           default:
+               _clear(CACHE_PATH);
+       }
+      }
+}
+function _clear($PATH){
+    $dh = opendir($PATH);
         while ($file = readdir($dh)) {
             if ($file != "." && $file != "..") {
-                $fullpath = TEMP_PATH . "/" . $file;
+                $fullpath = $PATH. $file;
                 if (!is_dir($fullpath)) {
                     unlink($fullpath);
                 } else {
@@ -36,6 +50,5 @@ function CacheClear(){
                 }
             }
         }
-    }
 }
 

@@ -20,11 +20,11 @@ class AuthGroupModel extends Model{
     public function _is_checkedAuth($data,$id){
         $listsArr = $this->getAuthLists($id);
         foreach($data as $k=>$v){
-            foreach($listsArr as $vo){
-                if($vo == $v['id']){
+            //foreach($listsArr as $vo){
+                if(in_array($v['id'],$listsArr) ){
                     $data[$k]['checked'] = 'true';
                 }
-            }
+           // }
         }
         return $data;
     }
@@ -32,7 +32,7 @@ class AuthGroupModel extends Model{
     //获取角色的管理权限列表
     private function getAuthLists($id){
         $listsStr =  M('auth_group')->where("id=%d",$id)->getField('rules');
-        return explode(';',$listsStr);
+        return explode(';',rtrim($listsStr,';'));
     }
 
 }

@@ -31,14 +31,18 @@ class MenuController extends Controller
         $initResult = $AR->initAuth();
         $this->assign('data',json_encode($initResult,TRUE));
         if(IS_POST){
-            $msg = false;
+            //$msg = false;
             $data['name'] = I('post.firstname','','string');
             $data['title'] = strtolower(I('post.roledesc','','string'));
-            $data['name'] = I('post.pid','','string');
-            if(M('auth_rule')->add()){
-                $msg = true;
+            $data['pid'] = I('post.pid',0,'intval');
+            //var_dump($data);
+            //exit;
+            if(M('auth_rule')->add($data)){
+                $AR = new AuthRuleModel();
+                $AR->update_init_auth();
+                $this->redirect('Menu/index');
             }
-            $this->ajaxReturn($msg,JSON);
+            //$this->ajaxReturn($msg,JSON);
         }
         $this->display();
     }

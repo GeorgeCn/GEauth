@@ -11,29 +11,54 @@ use Think\Model;
 use Think\Auth;
 
 class AuthRuleModel extends Model{
-    protected $AUTHROLE;
 
+
+    //用户权限列表初始化
     public function initAuth(){
         $AuthMenu = F("AuthMenu");
          if(!$AuthMenu) {
-            $AuthMenu = $this->menu_cache();
+            $AuthMenu = $this->auth_cache();
         }
         return $AuthMenu;
+    }
+    
+    private function auth_cache($data=null){
+        if (empty($data)) {
+            //$data = $this->getUserAuthMenus();
+            $data = M("auth_rule")->field('id,title,pid')->where('')->select();
+            foreach($data as $k=>$v){
+                $data[$k]['name'] = $v['title'];
+                $data[$k]['pId'] = $v['pid'];
+                unset($data[$k]['title']);
+                unset($data[$k]['pid']);
+            }
+            F("AuthMenu", $data);
+        } else {
+            F("AuthMenu", $data);
+        }
+        return $data;
+    }
+
+    //更新用户权限列表缓存
+    public function update_init_auth(){
+        F('AuthMenu',$this->auth_cache());
+    }
+
+    //用户菜单初始化缓存
+    public function initMenu(){
+        $MenuCache = F("MuthMenu");
+        if(!$MenuCache) {
+            $MenuCache = $this->menu_cache();
+        }
+        return $MenuCache;
     }
 
     private function menu_cache($data=null){
         if (empty($data)) {
             $data = $this->getUserAuthMenus();
-//            $data = M("auth_rule")->field('id,title,pid')->where('')->select();
-//            foreach($data as $k=>$v){
-//                $data[$k]['name'] = $v['title'];
-//                $data[$k]['pId'] = $v['pid'];
-//                unset($data[$k]['title']);
-//                unset($data[$k]['pid']);
- //           }
-            F("AuthMenu", $data);
+            F("MenuCache", $data);
         } else {
-            F("AuthMenu", $data);
+            F("MenuCache", $data);
         }
         return $data;
     }
@@ -43,7 +68,7 @@ class AuthRuleModel extends Model{
         $groups = $this->getGroup();
         $ids = array();//保存用户所属用户组设置的所有权限规则id
         foreach ($groups as $g) {
-            $ids = array_merge($ids, explode(',', trim($g['rules'], ',')));
+            $ids = array_merge($ids, explode(';', trim($g['rules'], ',')));
         }
         $ids = array_unique($ids);
         if(empty($ids)){
@@ -53,7 +78,7 @@ class AuthRuleModel extends Model{
     }
 
     private function getAuthLists($ids){
-        $ids=array('2','3');
+        //$ids=array('2','3');
         $map =array(
             'id'=>array('in',$ids)
         );

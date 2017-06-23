@@ -28,7 +28,7 @@ class PublicController extends Controller{
 	//登出
 	public function logout(){
 		session_destroy();
-		CacheClear();
+		CacheClear(array('data','cache'));
 		$this->redirect("Public/login");
 	}
 

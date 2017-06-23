@@ -100,6 +100,7 @@
         </div>
     </div>
 </div>
+<input type="hidden" name="s_id" id="s_id" value="{$Think.session.USER_KEY.id}">
 
 <!-- 全局js -->
 <script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
@@ -172,8 +173,9 @@
                 formatter: function(value,row,index){
 //                    console.log(row);
 //                    console.log(value);
+                    
                     if(row.id == 1){
-                        //管理员
+                        //超级管理员
                         return '<button type="button" disabled class="btn btn-outline btn-default">禁用</button>&nbsp;&nbsp;' +
                                 '<button type="button" disabled class="btn btn-outline btn-default">编辑</button>&nbsp;&nbsp;' +
                                 '<button type="button" disabled class="btn btn-outline btn-default">删除</button>';

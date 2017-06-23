@@ -18,6 +18,6 @@ class IndexController extends AuthController
     protected function getMenus(){
         //获取相关权限的角色相应的权限后台菜单
         $AR = new AuthRuleModel();
-        return $AR->initAuth();
+        return $AR->initMenu();
     }
 }
