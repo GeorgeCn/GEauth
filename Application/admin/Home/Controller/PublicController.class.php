@@ -32,6 +32,12 @@ class PublicController extends Controller{
 		$this->redirect("Public/login");
 	}
 
+	//清除缓存
+    public function clear_cache(){
+        $res = CacheClear('cache','data','log','temp')? true:false;
+	    $this->ajaxReturn($res,JSON);
+    }
+
 	public function header(){
 		$this->display();
 	}

@@ -11,8 +11,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- 导出 tp 的数据库结构
-CREATE DATABASE IF NOT EXISTS `tp` /*!40100 DEFAULT CHARACTER SET gbk */;
-USE `tp`;
+CREATE DATABASE IF NOT EXISTS `GEauth` /*!40100 DEFAULT CHARACTER SET gbk */;
+USE `GEauth`;
 
 
 -- 导出  表 tp.think_admin 结构

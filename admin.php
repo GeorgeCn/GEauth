@@ -20,7 +20,12 @@ define('APP_DEBUG',True);
 
 
 // 定义应用目录
-define('WEBROOT_PATH','/tp');
+
+//公司环境根目录
+//define('WEBROOT_PATH','/tp');
+
+//air环境根目录
+define('WEBROOT_PATH','/Github/GEauth');
 define('APP_PATH','./Application/admin/');
 
 // 引入ThinkPHP入口文件

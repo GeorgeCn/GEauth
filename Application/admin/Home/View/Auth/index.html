@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <HTML>
 <HEAD>
@@ -8,21 +11,12 @@
     <script type="text/javascript" src="__PUBLIC__/zTree/js/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="__PUBLIC__/zTree/js/jquery.ztree.core.js"></script>
     <script type="text/javascript" src="__PUBLIC__/zTree/js/jquery.ztree.excheck.js"></script>
-
-    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <link href="__PUBLIC__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
-    <link href="__PUBLIC__/css/animate.css" rel="stylesheet">
-    <link href="__PUBLIC__/css/style.css?v=4.1.0" rel="stylesheet">
-
-    <!-- 全局js -->
-    <!--<script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>-->
-    <script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.6"></script>
-    <!-- 自定义js -->
-    <script src="__PUBLIC__/js/content.js?v=1.0.0"></script>
-    <script src="__PUBLIC__/js/plugins/layer/layer.js"></script>
-
+    <!--
+    <script type="text/javascript" src="../../../js/jquery.ztree.exedit.js"></script>
+    -->
     <SCRIPT type="text/javascript">
         var data = <?php echo $data ?>;
+
         var setting = {
             check: {
                 enable: true
@@ -31,17 +25,21 @@
                 simpleData: {
                     enable: true
                 }
-            },
-            callback: {
-                onCheck: onCheck
             }
         };
+
         var zNodes = data;
+
+
         var code;
+
         function setCheck() {
             var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
-            //默认关联父与子元素
-            type = { "Y":'p' + 's', "N":'p' + 's'};
+                py = $("#py").attr("checked")? "p":"",
+                sy = $("#sy").attr("checked")? "s":"",
+                pn = $("#pn").attr("checked")? "p":"",
+                sn = $("#sn").attr("checked")? "s":"",
+                type = { "Y":py + sy, "N":pn + sn};
             zTree.setting.check.chkboxType = type;
             showCode('setting.check.chkboxType = { "Y" : "' + type.Y + '", "N" : "' + type.N + '" };');
         }
@@ -51,45 +49,29 @@
             code.append("<li>"+str+"</li>");
         }
 
-        function onCheck(e, treeId, treeNode) {
-            //alert(treeNode.id + treeNode.name );
-            var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
-                    nodes = zTree.getCheckedNodes();
-            var v="";
-            for(var i=0;i<nodes.length;i++){
-                v+=nodes[i]['id'] + ";";
-            }
-            document.getElementById('authlist').value = v;
-        }
-
         $(document).ready(function(){
             $.fn.zTree.init($("#treeDemo"), setting, zNodes);
             setCheck();
+            $("#py").bind("change", setCheck);
+            $("#sy").bind("change", setCheck);
+            $("#pn").bind("change", setCheck);
+            $("#sn").bind("change", setCheck);
         });
-
-
-        function authrize(uid){
-            var nodeslist = $('#authlist').val();
-            $.ajax({
-                type:'post',
-                url:"__APP__/Auth/index",
-                data:{
-                    uid:uid,
-                    lists:nodeslist
-                },
-                dateType:'json',
-                success:function(msg){
-                    if(msg){
-                        layer.msg('授权成功');
-                        window.location.href="__APP__/Role/index";
-                    }
-                }
-            })
-        }
 
     </SCRIPT>
 </HEAD>
+
 <BODY>
+<!--<h1>Checkbox 勾选操作</h1>-->
+<!--<h6>[ 文件路径: excheck/checkbox.html ]</h6>-->
+<!--<div class="content_wrap">-->
+    <!--<div class="zTreeDemoBackground left">-->
+        <!--<ul id="treeDemo" class="ztree"></ul>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
         <div class="col-sm-6">
@@ -100,7 +82,7 @@
                 <div class="ibox-content">
                     <div class="form-horizontal m-t" id="signupForm">
                         <div class="form-group">
-                            <ul id="treeDemo" class="ztree"></ul>
+                        <ul id="treeDemo" class="ztree"></ul>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-8 " style="margin-left:3%;">
@@ -115,8 +97,22 @@
         </div>
     </div>
 </div>
+
+
+
 </BODY>
 </HTML>
+
+<link rel="shortcut icon" href="favicon.ico">
+<link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+<link href="__PUBLIC__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+<link href="__PUBLIC__/css/animate.css" rel="stylesheet">
+<link href="__PUBLIC__/css/style.css?v=4.1.0" rel="stylesheet">
+
+
+
+
+
 
 
 

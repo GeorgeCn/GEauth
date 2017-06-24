@@ -20,11 +20,11 @@ class AuthGroupModel extends Model{
     public function _is_checkedAuth($data,$id){
         $listsArr = $this->getAuthLists($id);
         foreach($data as $k=>$v){
-            //foreach($listsArr as $vo){
-                if(in_array($v['id'],$listsArr) ){
+            foreach($listsArr as $vo){
+                //if(in_array($v['id'],$listsArr) ){
                     $data[$k]['checked'] = 'true';
-                }
-           // }
+                //}
+            }
         }
         return $data;
     }

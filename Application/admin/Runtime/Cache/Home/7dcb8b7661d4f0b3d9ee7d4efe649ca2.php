@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
@@ -15,10 +15,10 @@
 	<meta http-equiv="refresh" content="0;ie.html" />
 	<![endif]-->
 
-	<link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-	<link href="__PUBLIC__/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
-	<link href="__PUBLIC__/css/animate.css" rel="stylesheet">
-	<link href="__PUBLIC__/css/style.css?v=4.1.0" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico"> <link href="/Github/GEauth/Public/admin/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+	<link href="/Github/GEauth/Public/admin/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+	<link href="/Github/GEauth/Public/admin/css/animate.css" rel="stylesheet">
+	<link href="/Github/GEauth/Public/admin/css/style.css?v=4.1.0" rel="stylesheet">
 
 </head>
 
@@ -35,8 +35,8 @@
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
                                     <span class="block m-t-xs" style="font-size:20px;">
-                                        <i class=""><img style="width:50px;height:50px;border-radius:50%;" src="__DOC__/{$users.avatar}"/></i>
-                                        <strong class="font-bold">{$users.loginname}</strong>
+                                        <i class=""><img style="width:50px;height:50px;border-radius:50%;" src="/Github/GEauth/<?php echo ($users["avatar"]); ?>"/></i>
+                                        <strong class="font-bold"><?php echo ($users["loginname"]); ?></strong>
                                     </span>
                                 </span>
 						</a>
@@ -55,34 +55,24 @@
 				</li>
 
 				<!--动态加载菜单START-->
-				<foreach name="menus" item="vo">
-					<li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
-						<span class="ng-scope">{$vo['title']}</span>
+				<?php if(is_array($menus)): foreach($menus as $key=>$vo): ?><li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+						<span class="ng-scope"><?php echo ($vo['title']); ?></span>
 					</li>
-					<if condition="$vo['_child'] neq 0 " >
-						<?php $child=$vo['_child'] ?>
-						<foreach name="child" item="v">
-						<li>
+					<?php if($vo['_child'] != 0 ): $child=$vo['_child'] ?>
+						<?php if(is_array($child)): foreach($child as $key=>$v): ?><li>
 						<a href="#">
 
 							<i class="fa fa fa-bar-chart-o"></i>
-							<span class="nav-label">{$v['title']}</span>
+							<span class="nav-label"><?php echo ($v['title']); ?></span>
 							<span class="fa arrow"></span>
 						</a>
-						<if condition="$v['_child'] neq 0 " >
-							<ul class="nav nav-second-level">
+						<?php if($v['_child'] != 0 ): ?><ul class="nav nav-second-level">
 							<?php $child=$v['_child'] ?>
-							<foreach name="child" item="vv">
-								<li>
-									<a class="J_menuItem" href=__ROOT__/{$vv['name']}>{$vv['title']}</a>
-								</li>
-							</foreach>
-						</ul>
-						</if>
-				</li>
-						</foreach>
-					</if>
-				</foreach>
+							<?php if(is_array($child)): foreach($child as $key=>$vv): ?><li>
+									<a class="J_menuItem" href=/Github/GEauth/admin.php/<?php echo ($vv['name']); ?>><?php echo ($vv['title']); ?></a>
+								</li><?php endforeach; endif; ?>
+						</ul><?php endif; ?>
+				</li><?php endforeach; endif; endif; endforeach; endif; ?>
 				<!--动态加载菜单END-->
 
 
@@ -94,14 +84,14 @@
 				<!--<li>-->
 					<!--<a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">用户组</span><span class="fa arrow"></span></a>-->
 					<!--<ul class="nav nav-second-level">-->
-						<!--<li><a class="J_menuItem" href="__APP__/role/index">用户列表</a></li>-->
+						<!--<li><a class="J_menuItem" href="/Github/GEauth/admin.php/Home/role/index">用户列表</a></li>-->
 					<!--</ul>-->
 				<!--</li>-->
 				<!--<li>-->
 					<!--<a href="#"><i class="fa fa-edit"></i> <span class="nav-label">管理组</span><span class="fa arrow"></span></a>-->
 					<!--<ul class="nav nav-second-level">-->
-						<!--<li><a class="J_menuItem" href="__APP__/role/index">角色管理</a></li>-->
-						<!--<li><a class="J_menuItem" href="__APP__/user/index">管理员</a></li>-->
+						<!--<li><a class="J_menuItem" href="/Github/GEauth/admin.php/Home/role/index">角色管理</a></li>-->
+						<!--<li><a class="J_menuItem" href="/Github/GEauth/admin.php/Home/user/index">管理员</a></li>-->
 					<!--</ul>-->
 				<!--</li>-->
 				<!--<li class="hidden-folded padder m-t m-b-sm text-muted text-xs">-->
@@ -110,7 +100,7 @@
 				<!--<li>-->
 					<!--<a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">后台菜单</span><span class="fa arrow"></span></a>-->
 					<!--<ul class="nav nav-second-level">-->
-						<!--<li><a class="J_menuItem" href="__APP__/Menu/index">菜单列表</a></li>-->
+						<!--<li><a class="J_menuItem" href="/Github/GEauth/admin.php/Home/Menu/index">菜单列表</a></li>-->
 					<!--</ul>-->
 				<!--</li>-->
 			</ul>
@@ -130,7 +120,7 @@
 				<!--</div>-->
 				<ul class="nav navbar-top-links navbar-right">
 				<!--<ul style="float:right;margin-top:14px;">-->
-					<!--<span><font style="font-family:-webkit-body;font-size:medium;">{$users.loginname}</font>,欢迎您登录果果的权限管理平台</span>-->
+					<!--<span><font style="font-family:-webkit-body;font-size:medium;"><?php echo ($users["loginname"]); ?></font>,欢迎您登录果果的权限管理平台</span>-->
 					<li class="dropdown">
 						<a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
 							<i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
@@ -139,7 +129,7 @@
 							<li class="m-t-xs">
 								<div class="dropdown-messages-box">
 									<a href="profile.html" class="pull-left">
-										<img alt="image" class="img-circle" src="__PUBLIC__/img/a7.jpg">
+										<img alt="image" class="img-circle" src="/Github/GEauth/Public/admin/img/a7.jpg">
 									</a>
 									<div class="media-body">
 										<small class="pull-right">46小时前</small>
@@ -153,7 +143,7 @@
 							<li>
 								<div class="dropdown-messages-box">
 									<a href="profile.html" class="pull-left">
-										<img alt="image" class="img-circle" src="__PUBLIC__/img/a4.jpg">
+										<img alt="image" class="img-circle" src="/Github/GEauth/Public/admin/img/a4.jpg">
 									</a>
 									<div class="media-body ">
 										<small class="pull-right text-navy">25小时前</small>
@@ -220,7 +210,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="__APP__/Public/logout">
+								<a href="/Github/GEauth/admin.php/Home/Public/logout">
 									<div>
 										<i class="fa fa-minus-circle fa-fw"></i>退出
 									</div>
@@ -241,18 +231,18 @@
 </div>
 
 <!-- 全局js -->
-<script src="__PUBLIC__/js/jquery.min.js?v=2.1.4"></script>
-<script src="__PUBLIC__/js/bootstrap.min.js?v=3.3.6"></script>
-<script src="__PUBLIC__/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="__PUBLIC__/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-<script src="__PUBLIC__/js/plugins/layer/layer.js"></script>
+<script src="/Github/GEauth/Public/admin/js/jquery.min.js?v=2.1.4"></script>
+<script src="/Github/GEauth/Public/admin/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="/Github/GEauth/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/Github/GEauth/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/Github/GEauth/Public/admin/js/plugins/layer/layer.js"></script>
 
 <!-- 自定义js -->
-<script src="__PUBLIC__/js/hAdmin.js?v=4.1.0"></script>
-<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+<script src="/Github/GEauth/Public/admin/js/hAdmin.js?v=4.1.0"></script>
+<script type="text/javascript" src="/Github/GEauth/Public/admin/js/index.js"></script>
 
 <!-- 第三方插件 -->
-<script src="__PUBLIC__/js/plugins/pace/pace.min.js"></script>
+<script src="/Github/GEauth/Public/admin/js/plugins/pace/pace.min.js"></script>
 
 </body>
 
@@ -264,7 +254,7 @@
                 type:'post',
                 data:'',
                 dateType:'json',
-                url:"__APP__/public/clear_cache",
+                url:"/Github/GEauth/admin.php/Home/public/clear_cache",
                 success:function(msg){
                     layer.closeAll();
                     if(msg){

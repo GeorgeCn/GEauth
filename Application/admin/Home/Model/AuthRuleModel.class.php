@@ -27,8 +27,8 @@ class AuthRuleModel extends Model{
             //$data = $this->getUserAuthMenus();
             $data = M("auth_rule")->field('id,title,pid')->where('')->select();
             foreach($data as $k=>$v){
-                $data[$k]['name'] = $v['title'];
                 $data[$k]['pId'] = $v['pid'];
+                $data[$k]['name'] = $v['title'];
                 unset($data[$k]['title']);
                 unset($data[$k]['pid']);
             }

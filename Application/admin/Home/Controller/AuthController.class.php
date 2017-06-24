@@ -38,11 +38,14 @@ class AuthController extends Controller{
 
 
     public function index(){
-        $uid = I('get.id',0,'intval');
+        $uid = I('get.id',1,'intval');
         $AR = new AuthRuleModel();
         $AG = new AuthGroupModel();
         $initResult = $AR->initAuth();
+        //var_dump($initResult);
         $result = $AG->_is_checkedAuth($initResult,$uid);
+        //dump($result);
+        //print_r(json_encode($result));
         $this->assign('data',json_encode($result,TRUE));
         if(IS_POST){
             $msg = false;
