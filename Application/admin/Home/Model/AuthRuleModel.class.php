@@ -24,7 +24,6 @@ class AuthRuleModel extends Model{
     
     private function auth_cache($data=null){
         if (empty($data)) {
-            //$data = $this->getUserAuthMenus();
             $data = M("auth_rule")->field('id,title,pid')->where('')->select();
             foreach($data as $k=>$v){
                 $data[$k]['pId'] = $v['pid'];

@@ -16,7 +16,6 @@
     -->
     <SCRIPT type="text/javascript">
         var data = <?php echo $data ?>;
-
         var setting = {
             check: {
                 enable: true
@@ -27,12 +26,8 @@
                 }
             }
         };
-
         var zNodes = data;
-
-
         var code;
-
         function setCheck() {
             var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
                 py = $("#py").attr("checked")? "p":"",
@@ -48,7 +43,6 @@
             code.empty();
             code.append("<li>"+str+"</li>");
         }
-
         $(document).ready(function(){
             $.fn.zTree.init($("#treeDemo"), setting, zNodes);
             setCheck();
@@ -57,6 +51,31 @@
             $("#pn").bind("change", setCheck);
             $("#sn").bind("change", setCheck);
         });
+
+        //授权
+        function authrize(uid){
+            //获取选中项
+            var treeObj = $.fn.zTree.getZTreeObj("treeDemo"),
+                nodes = treeObj.getCheckedNodes(true),
+                v = "";
+            for (var i = 0; i < nodes.length; i++) {
+                v += nodes[i].id + ";";
+                //alert(nodes[i].id); //获取选中节点的值
+            }
+            console.log(v);
+//            $.ajax({
+//                type:'post',
+//                data:{
+//                    'lists':v,
+//                    'uid':uid
+//                },
+//                dateType:'json',
+//                url:"__APP__/auth/index",
+//                success:function(msg){
+//                    alett(123);
+//                }
+//            })
+        }
 
     </SCRIPT>
 </HEAD>
