@@ -1,0 +1,2050 @@
+[ 2018-03-23T11:52:20+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-03-23T11:53:40+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-03-23T11:53:56+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-03-23T11:54:02+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-03-23T11:54:07+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-03-23T11:55:04+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+
+[ 2018-03-23T11:55:09+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:55:13+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+
+[ 2018-03-23T11:55:21+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521777321',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0030s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:55:45+08:00 ] ::1 /Admin/Admin/useredit/id/1.html?_=1521777345621
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:56:42+08:00 ] ::1 /Admin/Admin/authinfo.html?id=19&_=1521777402339
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 19 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:56:54+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:05:26+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:05:31+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:06:00+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521781560892
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:06:08+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:07:08+08:00 ] ::1 /Admin/Admin/useredit.html?_=1521781627918
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 9 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 12 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 23 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 28 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 29 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 39 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 46 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 53 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:07:29+08:00 ] ::1 /Admin/Admin/authinfo.html?id=2&_=1521781649813
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:07:34+08:00 ] ::1 /Admin/Admin/authinfo.html?id=6&_=1521781654159
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 6 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-03-23T13:07:39+08:00 ] ::1 /Admin/Admin/authinfo.html?id=5&_=1521781659752
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:07:40+08:00 ] ::1 /Admin/Admin/authinfo.html?id=4&_=1521781660770
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:07:44+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:08:38+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-03-23T13:08:45+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '89fb3037c8fe38705df5ef12e2508305' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:08:52+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:08:57+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'c098475010c378591569fcf2c0866d87' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:09:02+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '0f5095d96990a60c3789e8764249cea1' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:09:12+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '89fb3037c8fe38705df5ef12e2508305' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:09:36+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2018-03-23T13:09:49+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'c098475010c378591569fcf2c0866d87' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:09:56+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:10:15+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521781815',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:10:40+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+
+[ 2018-03-23T13:10:48+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:11:00+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:11:05+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'c098475010c378591569fcf2c0866d87' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:11:12+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:11:17+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521781876',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:11:21+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:11:26+08:00 ] ::1 /Admin/Config/config.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Config' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_kv` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_kv` WHERE `key` = 'webOption' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_kv` SET `key`='webOption',`value`='{\"login_img\":\"\"}',`type`='1',`name`='网站配置' WHERE `key` = 'webOption' [ RunTime:0.0080s ]
+
+[ 2018-03-23T13:11:57+08:00 ] ::1 /Admin/Config/config.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Config' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_kv` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_kv` WHERE `key` = 'webOption' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `a_kv` SET `key`='webOption',`value`='{\"login_img\":\"\"}',`type`='1',`name`='网站配置' WHERE `key` = 'webOption' [ RunTime:0.0190s ]
+
+[ 2018-03-23T13:13:33+08:00 ] ::1 /Admin/Admin/useredit/id/2.html?_=1521782013272
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:13:41+08:00 ] ::1 /Admin/Admin/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: DELETE FROM `a_group_access` WHERE `uid` = 2 [ RunTime:0.0000s ]
+SQL: INSERT INTO `a_group_access` (`uid`,`group_id`) VALUES ('2','1') [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `username`='test',`sort`='99',`name`='test',`email`='test@126.com',`phone`='18210560183',`password`='6aafec32d24727f5935190fa506f46f4' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_char` [ RunTime:0.0010s ]
+SQL: UPDATE `a_char` SET `chars`='46491034' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:13:48+08:00 ] ::1 /Admin/Admin/useredit/id/2.html?_=1521782028237
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 2  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:13:52+08:00 ] ::1 /Admin/Admin/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: DELETE FROM `a_group_access` WHERE `uid` = 2 [ RunTime:0.0000s ]
+SQL: INSERT INTO `a_group_access` (`uid`,`group_id`) VALUES ('2','4') [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `username`='test',`sort`='99',`name`='test',`email`='test@126.com',`phone`='18210560183',`password`='b6037e21a515c8e8f8e94d09c1661535' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_char` [ RunTime:0.0010s ]
+SQL: UPDATE `a_char` SET `chars`='88146551' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:14:10+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:14:18+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = '181707792e4ea1e18b359eea5be5cabf' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:14:24+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521782064',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:14:30+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:14:38+08:00 ] ::1 /Admin/Admin/useredit/id/15.html?_=1521782078587
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 15 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 15  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:14:54+08:00 ] ::1 /Admin/Admin/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: DELETE FROM `a_group_access` WHERE `uid` = 15 [ RunTime:0.0000s ]
+SQL: INSERT INTO `a_group_access` (`uid`,`group_id`) VALUES ('15','1') [ RunTime:0.0000s ]
+SQL: UPDATE `a_admin` SET `username`='admin888',`sort`='99',`name`='1',`email`='1@126.com',`phone`='18210560183',`password`='ec75f860b9828b3bc8e624427200b4c5' WHERE `id` = 15 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_char` [ RunTime:0.0000s ]
+SQL: UPDATE `a_char` SET `chars`='39829715' WHERE `id` = 15 [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:15:12+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521782112',`last_ip`='0.0.0.0' WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 15  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1 AND `id` IN ('1')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:15:58+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521782158',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0020s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-03-23T13:16:05+08:00 ] ::1 /Admin/Admin/useredit.html?_=1521782165407
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 9 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 12 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 23 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 28 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 29 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 39 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 46 行.
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 53 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+NOTIC: [8] Undefined variable: group_id D:\phpStudy\WWW\auth\Application\Runtime\Cache\Admin\183c880dce4c937a71a9393c56e80fad.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:17:18+08:00 ] ::1 /Admin/Admin/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `a_admin` WHERE `username` = '毛二狗' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `a_admin` (`id`,`username`,`sort`,`password`,`name`,`email`,`phone`,`addtime`,`add_ip`) VALUES ('0','毛二狗','99','925362d4bff58a04c84314d5a658a5e4','毛毛','12360@qq.com','13718999822','1521782238','0.0.0.0') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: INSERT INTO `a_group_access` (`uid`,`group_id`) VALUES ('16','4') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_char` [ RunTime:0.0020s ]
+SQL: INSERT INTO `a_char` (`chars`,`id`,`type`) VALUES ('35100839','16','0') [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:17:27+08:00 ] ::1 /Admin/Admin/useredit/id/16.html?_=1521782247351
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 16 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 16  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:17:41+08:00 ] ::1 /Admin/Admin/authinfo.html?id=1&_=1521782261414
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:17:42+08:00 ] ::1 /Admin/Admin/authinfo.html?id=1&_=1521782262033
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:17:47+08:00 ] ::1 /Admin/Admin/authinfo.html?id=10&_=1521782267034
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:17:52+08:00 ] ::1 /Admin/Admin/authinfo.html?id=19&_=1521782272545
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 19 AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:17:59+08:00 ] ::1 /Admin/Admin/authinfo.html?id=7&_=1521782279528
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 7 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:01+08:00 ] ::1 /Admin/Admin/authinfo.html?id=2&_=1521782281351
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:03+08:00 ] ::1 /Admin/Admin/authinfo.html?id=3&_=1521782283139
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:05+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782285792
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:06+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782286654
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:08+08:00 ] ::1 /Admin/Admin/authinfo.html?id=29&_=1521782288817
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 29 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:18:10+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782290515
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:18:14+08:00 ] ::1 /Admin/Admin/authinfo.html?id=29&_=1521782294639
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 29 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:18:30+08:00 ] ::1 /Admin/Admin/groupedit/id/4.html?_=1521782310377
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_group` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:19:50+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:22:01+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:22:18+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-23T13:23:10+08:00 ] ::1 /Admin/Admin/useredit/id/16.html?_=1521782589951
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_admin` WHERE `id` = 16 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 16  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `a_group` WHERE `status` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:23:18+08:00 ] ::1 /Admin/Admin/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: DELETE FROM `a_group_access` WHERE `uid` = 16 [ RunTime:0.0010s ]
+SQL: INSERT INTO `a_group_access` (`uid`,`group_id`) VALUES ('16','4') [ RunTime:0.0000s ]
+SQL: UPDATE `a_admin` SET `username`='毛二狗',`sort`='99',`name`='毛毛',`email`='12360@qq.com',`phone`='13718999822',`password`='5266d2fda2c0f63f4acb7b8a0895a799' WHERE `id` = 16 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_char` [ RunTime:0.0010s ]
+SQL: UPDATE `a_char` SET `chars`='47667707' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:23:23+08:00 ] ::1 /Admin/Admin/groupedit/id/4.html?_=1521782603145
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_group` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:23:43+08:00 ] ::1 /Admin/Admin/authinfo.html?id=2&_=1521782623256
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:23:47+08:00 ] ::1 /Admin/Admin/authinfo.html?id=3&_=1521782627371
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:23:50+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782630553
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:03+08:00 ] ::1 /Admin/Admin/authedit/id/28.html?_=1521782643188
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:17+08:00 ] ::1 /Admin/Admin/authedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: INSERT INTO `a_auth_cate` (`pid`,`module`,`controller`,`level`,`title`,`method`,`sort`,`is_menu`) VALUES ('28','Admin','Rules','2','1212','2121','99','0') [ RunTime:0.0150s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 30 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_auth_cate` SET `name`='Admin/Rules/2121' WHERE `id` = 30 AND `status` = 1 [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\auth\Application\Admin\Controller\AdminController.class.php 第 252 行.
+
+[ 2018-03-23T13:24:27+08:00 ] ::1 /Admin/Admin/authinfo.html?id=30&_=1521782667602
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 30 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:30+08:00 ] ::1 /Admin/Admin/authinfo.html?id=29&_=1521782670774
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 29 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:32+08:00 ] ::1 /Admin/Admin/authinfo.html?id=30&_=1521782672447
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 30 AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:33+08:00 ] ::1 /Admin/Admin/authinfo.html?id=29&_=1521782673827
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 29 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:35+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782675544
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:37+08:00 ] ::1 /Admin/Admin/authinfo.html?id=29&_=1521782677358
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 29 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:38+08:00 ] ::1 /Admin/Admin/authinfo.html?id=28&_=1521782678321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 28 AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:39+08:00 ] ::1 /Admin/Admin/authinfo.html?id=30&_=1521782679207
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 30 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:41+08:00 ] ::1 /Admin/Admin/authinfo.html?id=3&_=1521782681531
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:43+08:00 ] ::1 /Admin/Admin/authinfo.html?id=1&_=1521782683143
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:44+08:00 ] ::1 /Admin/Admin/authinfo.html?id=2&_=1521782684583
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:24:46+08:00 ] ::1 /Admin/Admin/authinfo.html?id=1&_=1521782686263
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:24:50+08:00 ] ::1 /Admin/Admin/authinfo.html?id=10&_=1521782690168
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-23T13:25:36+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:25:44+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+
+[ 2018-03-23T13:26:01+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521782761',`last_ip`='0.0.0.0' WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 15  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1 AND `id` IN ('1')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:47:39+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0030s ]
+
+[ 2018-03-23T13:47:57+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+
+[ 2018-03-23T13:48:18+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521784098',`last_ip`='0.0.0.0' WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T14:07:32+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0030s ]
+
+[ 2018-03-23T14:07:47+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521785267',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0030s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-03-23T14:08:12+08:00 ] ::1 /Admin/Admin/groupauth/id/4.html?id=4&_=1521785292828
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,title name FROM `a_auth_cate` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:08:24+08:00 ] ::1 /Admin/Admin/groupedit/id/1.html?_=1521785304693
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_group` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T14:08:26+08:00 ] ::1 /Admin/Admin/groupauth/id/1.html?id=1&_=1521785306514
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 1 AND `module` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 2 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 3 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `a_auth_cate` WHERE `pid` = 28 AND `status` = 1 AND `is_menu` <> 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `module`,`controller`,`method`,`title`,`name` FROM `a_auth_cate` WHERE `status` = 1 AND `level` = 2 AND `is_menu` = 0 AND `module` = 'Admin' AND `controller` = 'Admin' ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0020s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,title name FROM `a_auth_cate` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:08:39+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521785319',`last_ip`='0.0.0.0' WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `a_group_access` WHERE `uid` = 15  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0000s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1 AND `id` IN ('1')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:23:26+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin888' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521786206',`last_ip`='0.0.0.0' WHERE `username` = 'admin888' AND `password` = 'ec75f860b9828b3bc8e624427200b4c5' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-03-23T14:52:50+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521787970',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:55:48+08:00 ] ::1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\phpStudy\WWW\auth\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1521788148',`last_ip`='0.0.0.0' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0010s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:55:56+08:00 ] ::1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+

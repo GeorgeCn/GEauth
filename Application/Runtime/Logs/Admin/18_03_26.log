@@ -1,0 +1,29 @@
+[ 2018-03-26T10:36:11+08:00 ] 127.0.0.1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-26T10:37:03+08:00 ] 127.0.0.1 /Admin/Public/islogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\auth2\Application\Admin\Controller\PublicController.class.php 第 328 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\auth2\Application\Admin\Controller\PublicController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_admin` [ RunTime:0.0010s ]
+SQL: SELECT `chars` FROM a_admin a LEFT JOIN a_char c ON a.id=c.id  WHERE a.username = 'admin' AND a.status = 1 AND c.type = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`status`,`name` FROM `a_admin` WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `a_admin` SET `last_time`='1522031823',`last_ip`='127.0.0.1' WHERE `username` = 'admin' AND `password` = '188fec1bc25ef912b6e77f6741b5c364' AND `status` = 1 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `a_group_access` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `a_group` [ RunTime:0.0010s ]
+SQL: SELECT `rules` FROM `a_group` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `a_auth_cate` [ RunTime:0.0020s ]
+SQL: SELECT `module` FROM `a_auth_cate` WHERE `id` IN ('0','1','2','7','10','19','20','57','58','59','61','51','52','53','54','55','56','62','63','64','65','66','67','68','69','70','71','72','28','29','30','') AND `level` = 0 AND `status` = 1 ORDER BY sort DESC LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-26T10:37:24+08:00 ] 127.0.0.1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-26T10:37:28+08:00 ] 127.0.0.1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
+[ 2018-03-26T10:45:50+08:00 ] 127.0.0.1 /Admin/Rules/index.html
+ERR: 无法加载控制器:Rules
+
