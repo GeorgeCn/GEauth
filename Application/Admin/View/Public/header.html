@@ -1,7 +1,7 @@
 <div class="heade" id="header">
     <div class="head_box">
         <h1 class="logo">
-            <a href="#" title="Juuz"><img src="__ADMINSTYLE__/Images/logo_header.png" /></a>
+            <a href="#" title="Juuz"><img src="__ADMINSTYLE__/Images/logo_header.png" width="200px"/></a>
         </h1>
         <div class="account">
             <span class="account_bg_left"></span>
@@ -16,7 +16,7 @@
         </div>
         <div class="head_menu">
             <volist name="web_top_menu_url" id="vo">
-                <a href="{$vo.url}" <eq name="Think.MODULE_NAME" value="$vo['module']">class='selected'</eq>>{$vo.title}</a>
+                <a href="{$vo.url}">{$vo.title}</a>
             </volist>
         </div>
     </div>
