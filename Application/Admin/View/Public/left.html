@@ -1,6 +1,4 @@
-<?php
-$name = CONTROLLER_NAME;
-?>
+
 <div class="menu_box">
     <dl class="menu first">
         <dt class="menu_title">
@@ -16,7 +14,7 @@ $name = CONTROLLER_NAME;
         </dt>
 
         <volist name="menu_url" id="vo">
-            <?php
+        <?php
             $url = explode('/', $vo['name']);
             $cname = $url[2];
         ?>

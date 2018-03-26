@@ -7,9 +7,9 @@
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 namespace Admin\Controller;
 class IndexController extends PrivateController {
-    public function index(){
+    public function index()
+    {
         $modules = I('get.module','');
-        echo(123);exit;
         if(!empty($modules)){
             delTemp();
         }

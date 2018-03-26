@@ -324,5 +324,4 @@ class PublicController extends Controller
         }
         die(json_encode($arr));
     }
-
 }

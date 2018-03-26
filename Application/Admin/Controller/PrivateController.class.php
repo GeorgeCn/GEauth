@@ -20,7 +20,7 @@ class PrivateController extends PublicController
 
     /**
      * 初始化方法
-     * @auth 普罗米修斯 www.php63.cc
+     * @auth 普罗米修斯
      **/
     public function _initialize()
     {
@@ -74,7 +74,7 @@ class PrivateController extends PublicController
      * @param string $url 要跳转的地址
      * @param int $typeid 0 为直接跳转 1为返回数组
      * @return boolean
-     * @author 普罗米修斯<www.php63.cc>  <996674366@qq.com>
+     * @author 普罗米修斯
      */
     protected function _modelAdd($url = '', $typeid = 0)
     {
