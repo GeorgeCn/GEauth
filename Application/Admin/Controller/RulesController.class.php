@@ -3,7 +3,7 @@ namespace Admin\Controller;
 class RulesController extends PrivateController
 {
     /**
-     * uesr 后台路由管理规则列表
+     * auth_cate 后台路由管理规则列表
      **/
     public function lists()
 	{
@@ -12,8 +12,8 @@ class RulesController extends PrivateController
         $but = array(
             array(
                 'url'   => 'ruledit',
-                'name'  => '添加模块',
-                'title' => '添加菜单',
+                'name'  => '添加菜单',
+                'title' => '菜单信息',
                 'type'  => 1 
             ),
         );
@@ -25,9 +25,9 @@ class RulesController extends PrivateController
         $list = self::_modelCount($where);
         $dataArr = self::_modelSelect($where, 'id asc', "id,title,level,module,controller,name", $list['limit']);
         $toolsOptionArr = array(
-            array('添加',1,'添加路由','useredit', U('useredit', array('id' => '___id___'))),
-            array('编辑',1,'编辑路由','useredit', U('useredit', array('id' => '___id___'))),
-            array('删除',2,'删除路由','adminuserdel', U('adminuserdel', array('id' => '___id___')),'你确认要删除吗？'),
+            array('添加',1,'添加路由','useredit', U('ruledit', array('id' => '___id___'))),
+            array('编辑',1,'编辑路由','useredit', U('ruledit', array('id' => '___id___'))),
+            array('删除',2,'删除路由','adminuserdel', U('ruledel', array('id' => '___id___')),'你确认要删除吗？'),
         );
         $toolsOption = self::_listBut($toolsOptionArr);
         $thead = array(
@@ -92,15 +92,13 @@ class RulesController extends PrivateController
 	}
 
 	/**
-     * group 后台用户分组添加编辑
-     * @author 刘中胜
-     * @time 2015-12-05
+     * auth_cate 后台路由添加编辑
      **/
     public function ruledit()
     {
         $this->model = D('AuthCate');
         if(IS_POST){
-            self::_modelAdd('user');
+            self::_modelAdd('lists');
         }
         $id = I('get.id', 0, 'intval');
         if($id != 0){
@@ -109,11 +107,6 @@ class RulesController extends PrivateController
                 'status' => 1
             );
             self::_oneInquire($where);
-            $where = array(
-                'uid' => $id
-            );
-            $group_id = M('group_access')->where($where)->getField('group_id', true);
-            $this->assign('group_id', $group_id);
         }
         $where = array(
             'status' => 1
@@ -121,5 +114,21 @@ class RulesController extends PrivateController
         $list = D('Group')->dataSet($where, 'sort DESC', 'id,title');
         $this->assign('list', $list);
         $this->display();
+    }
+
+    /*
+     * 删除路由
+     */
+    public function adminuserdel()
+    {
+        $this->model = D('Admin');
+        $id = I('get.id',0,'intval');
+        if($id == C('ADMINISTRATOR')){
+            $this -> error('系统账号无法删除');
+        }
+        if($id == UID){
+            $this -> error('自己无法删除自己');
+        }
+        self::_del('user');
     }
 }

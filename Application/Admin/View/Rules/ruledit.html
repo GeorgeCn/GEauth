@@ -1,0 +1,61 @@
+<style>
+    .ui_pop_foot{
+        background-color:#F4F5F9;border-top:1px solid #ddd;text-align:right;
+        position:absolute;padding:8px 0;bottom:0;left:0;width:100%;
+    }
+</style> 
+<form class="clearfix" action="{:U('ruledit')}" method="post" onsubmit="return Juuz.ajaxForm(this);">
+    <div class="ui_col_10" style="padding:10px 20px 62px">
+        <input type="hidden" name="id" value="{$info.id}">
+        <div class="ui_col_5">
+            <label class="ui_label">菜单标题 : </label>
+            <input class="ui_text_input" type="text" name="title" value="{$info.title}" data-opt='{
+                type : "require",
+                msg : "请输入菜单标题"
+            }' />
+        </div>
+        <div class="ui_col_3">
+            <div class="ui_col_2">
+                <label class="ui_label">等级 : </label>
+                <input class="ui_text_input" name="sort" data-opt='{
+                    type : "require number",
+                    msg : "请输入菜单等级 等级只能是数字"
+                }' <eq name="info.level" value="">value="0"<else/>value="{$info.level}"</eq> />
+ 
+            </div>
+        </div>
+        <div class="ui_col_5">
+                <label class="ui_label">模块 : </label>
+                <input class="ui_text_input" name="moudle" type="password" value="{$info.moudle}" data-opt='{
+                type : "require",
+                msg : "请输入菜单所属模块"
+            }'  />
+        </div>
+        <div class="ui_col_5">
+                <label class="ui_label">控制器 : </label>
+                <input class="ui_text_input" name="controller" type="password" value="{$info.controller}" />
+        </div>
+        <div class="ui_col_5">
+                <label class="ui_label">方法 : </label>
+                <input class="ui_text_input" name="method" type="password" value="{$info.method}" />
+        </div>
+        <div class="ui_col_5">
+            <label class="ui_label">菜单路径: </label>
+            <input class="ui_text_input" name="name" type="text"  value="{$info.name}" data-opt='{
+                type : "require",
+                msg : "请输入用户姓名"
+            }'/>
+        </div>
+        <div class="ui_col_5">
+            <label class="ui_label">PID: </label>
+            <input class="ui_text_input"  name="pid" type="text" value="{$info.pid}" data-opt='{
+                type : "require",
+                msg : "请输入菜单PID"
+            }'/>
+        </div>
+
+    </div>
+    <div class="ui_pop_foot">
+        <button type="submit" class="ui_button small mr10">提 交</button>
+    </div>
+</form>
