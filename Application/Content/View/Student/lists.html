@@ -1,0 +1,174 @@
+<extend name="Admin@Public:block" />
+<block name="title">学生管理</block>
+<block name="header">学生管理</block>
+
+<block name="body">
+                <div class="main_bd">
+                    <div class="main_bd_top clearfix">
+                        <div style="margin-bottom:20px">
+                            <form id="searchForm" action="" method="post" onsubmit="return Manage.updateListData(this);">
+                                <input type="hidden" name="currentPage" value="1" />
+                                <input type="hidden" name="pageNum" value="10" />
+                                <table class="table_one">
+                                    <tr>
+                                        <td class="td_title">注册时间：</td>
+                                        <td class="td_main"><input type="text" class="Wdate input_all" name="start_time" onclick="WdatePicker({dateFmt:'yyyy:MM:dd HH:mm:ss'})" placeholder="开始时间"><span class="input-group-addon">To</span><input type="text" class="Wdate input_all" name="end_time" onclick="WdatePicker({dateFmt:'yyyy:MM:dd HH:mm:ss'})" placeholder="结束时间"></td>
+                                        </td>
+                                        <td class="td_title">来源：</td>
+                                        <td class="td_main">
+                                            <input id="moreSel" type="text" name="channel"  class="input_all"/>
+                                            <input id="moreSelId" type="hidden" name="channel_id" class="input_all"/>
+                                            &nbsp;<a id="menuBtn" href="javascript:;" onclick="showMenu(); return false;">选择</a>
+                                            <div id="DropdownMenuBackground" style="display:none; position:absolute; height:200px; min-width:150px; background-color:white;border:1px solid;overflow-y:auto;overflow-x:auto;"><ul id="categoryTree" class="ztree"></ul></div>
+                                        </td>
+                                        <td class="td_title">代理名称：</td>
+                                        <td class="td_main"><input type="text" name="agent_name" value="{:I('post.agent_name')}" class="input_all" style="width:100%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td_title">学生类型：</td>
+                                        <td class="td_main">
+                                            <select name="type" >
+                                                <option value="1" {$type == 1?'selected':''}>注册</option>
+                                                <option value="3" {$type == 3?'selected':''}>开课</option>
+                                                <option value="2" {$type == 2?'selected':''}>付费</option>
+                                            </select>
+                                        </td>
+                                        <td class="td_title"></td>
+                                        <td class="td_main">
+                                        </td>
+                                        <td class="td_title"></td>
+                                        <td class="td_main">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="head_p" style="float:right;"><button type="submit" class="button_all">搜索</button></div>
+                            </form>
+                        </div>
+                        <span class="tools pull-right">
+                                <button type="button" class="button_all" id="download" style="margin-top:-10px;">一键导出</button>
+                        </span>
+                        <ul class="tab_caozuo dib-wrap">
+    						<volist name="editTag" id="vo">
+                                <li class="dib">
+    								<a href="{$vo.href}" target="{$vo.target}" data-opt="{$vo['dataopt']['data-opt']}">{$vo['dataopt']['content']}</a>
+                                </li>
+    						</volist>
+                        </ul>
+                    </div>
+                    <div class="ui_list_wrap">
+                    </div>
+                </div>
+
+<script type="text/javascript">
+$(document).off('click').on("click",function(e){
+    var menuObj = $('.list_tools_menu');
+    var target = $(e.target);
+    if(target.closest(".js_list_tools").length == 0){
+        $('#listToolsWrap').html('').hide();
+    }
+});
+
+var listJson = {$lists};
+    
+$(function(){
+    var listTable = Manage.listTemp(listJson);
+    var listWrap = $('.ui_list_wrap');
+    listWrap.html(listTable);
+    Manage.uiInit(listWrap);
+});
+//下载
+$('#download').on('click', function (e) {
+        exporturl = "{:U('Student/studentExcel')}";
+        $('form').prop('action', exporturl);
+        //表单提交
+        $('#searchForm').submit();
+})
+// 搜索重置URL
+$('button[type="submit"]').on('click', function (e) {
+    baseurl = "{:U('Student/lists')}";
+    $('form').prop('action', baseurl);
+})
+</script>
+<!--无限极选择项-->
+<script>
+        var setting = {
+            data: {
+                simpleData: {
+                    enable: true,
+                    idKey : 'id',
+                    pIdKey : 'pid'
+                },
+                key:{
+                    name : 'title'
+                }
+            },
+            callback:{
+                beforeClick: ztreeOnBeforeClick,
+                onClick: ztreeOnClick
+            }
+        };
+        var zNodes ={$list};
+
+
+        function showMenu() {
+            var moreObj = $("#moreSel");
+            var moreOffset = $("#moreSel").offset();
+            $("#DropdownMenuBackground").css({left:moreOffset.left + "px", top:moreOffset.top + moreObj.outerHeight() + "px"}).slideDown("fast");
+        }
+
+        function hideMenu() {
+            $("#DropdownMenuBackground").fadeOut("fast");
+        }
+
+        function ztreeOnBeforeClick(treeId, treeNode) {
+            var check = (treeNode && treeNode.id);
+            if (!check) {
+                console.log("无效的参数");
+            }
+            return check;
+        }
+
+        function ztreeOnClick(event, treeId, treeNode){
+            if (treeNode) {
+                var $moreObj = $("#moreSel");
+                var $moreObjId = $("#moreSelId");
+                var moreObjValue = $moreObj.val();
+                var moreObjIdValue = $moreObjId.val();
+                if(moreObjValue) {
+                    moreObjValue = moreObjValue+','+treeNode.title;
+                } else {
+                    moreObjValue = treeNode.title;
+                }
+                if(moreObjIdValue) {
+                    moreObjIdValue = moreObjIdValue+','+treeNode.id;
+                } else {
+                    moreObjIdValue = treeNode.id;
+                }
+
+                $moreObj.attr("value", moreObjValue);
+                $moreObjId.attr("value", moreObjIdValue);
+                hideMenu();
+            }
+        }
+
+        //光标自动跳转到文本末尾
+        $("#searchForm").on('click', 'input[name="channel"]', function(){
+            var txt = $(this).val(); 
+            $(this).val("").focus().val(txt);
+            hideMenu();
+        })
+
+        $("#searchForm").on('blur', 'input[name="channel"]', function(){
+            var $moreObj = $("#moreSel");
+            var $moreObjId = $("#moreSelId");
+            var moreObjArr = $.trim($moreObj.val());
+            var moreObjIdArr = $.trim($moreObjId.val()).split(",").splice(1,moreObjArr.length);
+            $moreObjId.attr("value",moreObjIdArr.join(","));
+        })
+
+        $(function(){
+            $.fn.zTree.init($("#categoryTree"), setting, zNodes);
+        })
+    
+</script>
+</block>

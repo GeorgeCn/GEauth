@@ -1,4 +1,39 @@
 <extend name="Admin@Public:block" />
+<block name="title">站点信息</block>
+<block name="header">站点信息</block>
+
 <block name="body">
-      
+	<div style="margin-bottom:20px">
+		<h3>时间:2018.3.1——至今</h3>
+      	<table class="table_one">
+            <tr>
+                <td class="td_title">渠道</td>
+                <td class="td_title">领取/注册数</td>
+                <td class="td_title">开课数</td>
+                <td class="td_title">付费转化数</td>
+                <td class="td_title">付费额</td>
+            </tr>
+            <tr>
+                <td class="td_main">全部</td>
+                <td class="td_main">{$list[0]['registNum']}</td>
+                <td class="td_main">{$list[0]['classNum']}</td>
+                <td class="td_main">{$list[0]['payNum']}</td>
+                <td class="td_main">{$list[0]['payTotal']}</td>
+            </tr>
+            <tr>
+                <td class="td_main">优氏英语</td>
+                <td class="td_main">{$list[1]['registNum']}</td>
+                <td class="td_main">{$list[1]['classNum']}</td>
+                <td class="td_main">{$list[1]['payNum']}</td>
+                <td class="td_main">{$list[1]['payTotal']}</td>
+            </tr>
+            <tr>
+                <td class="td_main">至慧学堂</td>
+	            <td class="td_main">{$list[2]['registNum']}</td>
+                <td class="td_main">{$list[2]['classNum']}</td>
+                <td class="td_main">{$list[2]['payNum']}</td>
+                <td class="td_main">{$list[2]['payTotal']}</td>
+            </tr>
+        </table>
+    </div>
 </block>

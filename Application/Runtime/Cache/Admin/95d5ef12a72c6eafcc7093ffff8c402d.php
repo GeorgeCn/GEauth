@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>    <!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -70,7 +70,7 @@
     <div class="heade" id="header">
     <div class="head_box">
         <h1 class="logo">
-            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" /></a>
+            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" width="200px"/></a>
         </h1>
         <div class="account">
             <span class="account_bg_left"></span>
@@ -80,7 +80,7 @@
                 title: '修改密码',
                 url: '<?php echo U("Admin/Public/resetpwd");?>',
                 dataType: 'html'
-            }">修改密码</a>
+            }">修改密码</a> 
             <a href="<?php echo U('Admin/Public/logout');?>" class="account_logout">安全退出</a>
         </div>
         <div class="head_menu">
@@ -131,7 +131,7 @@ $name = CONTROLLER_NAME; ?>
                         <ul class="tab_caozuo dib-wrap">
                             <?php if(is_array($editTag)): $i = 0; $__LIST__ = $editTag;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="dib">
                                     <a href="<?php echo ($vo["href"]); ?>" target="<?php echo ($vo["target"]); ?>" data-opt="<?php echo ($vo['dataopt']['data-opt']); ?>"><?php echo ($vo['dataopt']['content']); ?></a>
-                                
+
                             </li><?php endforeach; endif; else: echo "" ;endif; ?>
                         </ul>
                     </div>
@@ -151,7 +151,7 @@ $name = CONTROLLER_NAME; ?>
                                         <td><span><?php echo ($vo["title"]); ?></span></td>
                                         <td><?php echo ($vo["title"]); ?></td>
                                         <td>
-                                        
+
                                             <a href="javascript:void(0);" target="popDialog" data-opt="{
                                                         title : '编辑管理分组',
                                                         url : '<?php echo U('groupedit',array('id'=>$vo['id']));?>'
@@ -169,7 +169,7 @@ $name = CONTROLLER_NAME; ?>
                                                     }">权限</a>
                                         </td>
                                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                   
+
                                 </tbody>
                             </table>
                         </div>
@@ -249,9 +249,9 @@ $name = CONTROLLER_NAME; ?>
         function delSuccess(obj){
             var className = obj.parents('tr')[0].className;
             if(className.indexOf('active') >= 0){
-                $('#categoryTree').html('<li class="tips">请点击权限按钮进行分配</li>');
-                $('.jsQuanxianSave').hide();
-                $('#currentGroupName').text('');
+//                $('#categoryTree').html('<li class="tips">请点击权限按钮进行分配</li>');
+//                $('.jsQuanxianSave').hide();
+//                $('#currentGroupName').text('');
             }
         }
 

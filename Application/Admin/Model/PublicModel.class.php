@@ -169,7 +169,7 @@ class PublicModel extends Model
             delTemp();
             return true;
         } else{
-            $this -> errro = '参数错误';
+            $this -> error = '参数错误';
             return false;
         }
 

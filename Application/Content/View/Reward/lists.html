@@ -1,0 +1,236 @@
+<extend name="Admin@Public:block" />
+<block name="title">奖金管理</block>
+<block name="header">奖金管理</block>
+
+<block name="body">
+                <div class="main_bd">
+                    <div class="main_bd_top clearfix">
+                        <div style="margin-bottom:20px">
+                            <form id="searchForm" action="" method="post" onsubmit="return Manage.updateListData(this);">
+                                <input type="hidden" name="currentPage" value="1" />
+                                <input type="hidden" name="pageNum" value="10" />
+                                <table class="table_one" style="table-layout: auto;">
+                                    <tr>
+                                        <td class="td_title">时间段：</td>
+                                        <td class="td_main"><input type="text" class="Wdate input_all" name="month" onclick="WdatePicker({dateFmt:'yyyy-MM',minDate:'2018-01-01',maxDate:'{$date}'})" style="width:100%" placeholder="选择月份"></td>
+                                        </td>
+                                        <td class="td_title">来源：</td>
+                                        <td class="td_main">
+                                            <input id="moreSel" type="text" name="channel" class="input_all"/>
+                                            <input id="moreSelId" type="hidden" name="channel_id" class="input_all" />
+                                            &nbsp;<a id="menuBtn" href="javascript:;" onclick="showMenu(); return false;">选择</a>
+                                            <div id="DropdownMenuBackground" style="display:none; position:absolute; height:200px; min-width:150px; background-color:white;border:1px solid;overflow-y:auto;overflow-x:auto;"><ul id="categoryTree" class="ztree"></ul></div>
+                                        </td>
+                                        <td class="td_title">代理名称：</td>
+                                        <td class="td_main"><input type="text" name="agent_name" value="{:I('post.agentName')}" class="input_all" style="width:100%"></td>
+                                    </tr>
+                                </table>
+                                <div class="head_p" style="float:right;"><button type="submit" class="btn_a button_all">搜索</button></div>
+                            </form>
+                        </div>
+                        <span class="tools pull-right">
+                                    <button type="button" class="btn btn-default button_all" id="download" style="margin-top:-10px;">一键导出</button>
+                        </span>
+                        <ul class="tab_caozuo dib-wrap">
+                            <volist name="editTag" id="vo">
+                                <li class="dib">
+                                    <a href="{$vo.href}" target="{$vo.target}" data-opt="{$vo['dataopt']['data-opt']}">{$vo['dataopt']['content']}</a>
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <div class="ui_list_wrap">
+                    </div>
+                </div>
+
+<script type="text/javascript">
+$(document).off('click').on("click",function(e){
+    var menuObj = $('.list_tools_menu');
+    var target = $(e.target);
+    if(target.closest(".js_list_tools").length == 0){
+        $('#listToolsWrap').html('').hide();
+    }
+});
+
+var listJson = {$lists};
+    
+$(function(){
+    var listTable = Manage.listTemp2(listJson);
+    var listWrap = $('.ui_list_wrap');
+    listWrap.html(listTable);
+    Manage.uiInit(listWrap);
+});
+
+//下载
+$('#download').on('click', function (e) {
+            exporturl = "{:U('Reward/rewardExcel')}";
+            $('form').prop('action', exporturl);
+            //表单提交
+            $('#searchForm').submit();
+})
+$(function() {
+    search();
+})
+// 搜索重置URL
+$('button[type="submit"]').on('click', function (e) {
+    baseurl = "{:U('Reward/lists')}";
+    $('form').prop('action', baseurl);
+    search();
+})
+//table中单元格置换成input框
+function search() {
+        var $wrap = $('.ui_list_wrap');
+        $wrap.one('click', function (e) {
+        $trs = $wrap.find('tbody tr');
+        $trs.each(function(e) {
+            var $this = $(this);
+            var $tds = $(this).find('td');
+            $tds.each(function(e) {
+               if($(this).index()>4 && $(this).index()<10) {
+                    $(this).find('input').removeAttr('readonly');
+                } 
+            })
+            $tools_save = $(this).find('td a').eq(0);
+            $tools_show = $(this).find('td a').eq(1);
+            $tools_save.off('click').on('click', function(){
+                var month = $tds.eq(1).find('input').val();
+                var proxy_id = $tds.eq(2).find('input').val();
+                var sum_money = $tds.eq(5).find('input').val();
+                var deduct_money = $tds.eq(6).find('input').val();
+                var tax_money = $tds.eq(7).find('input').val();
+                var actual_money = $tds.eq(8).find('input').val();
+                var comment = $tds.eq(9).find('input').val();
+                    $.ajax({
+                    type:"post",
+                    url: "{:U('Reward/rewSave')}",
+                    data:{"month":month, "proxy_id":proxy_id,"sum_money":sum_money,"deduct_money":deduct_money,"tax_money":tax_money,"actual_money":actual_money,"comment":comment},
+                    datatype:"json",
+                    success:function(data) {
+                        $('.list_tools_menu').hide();
+                        if(data.status == 1000) {
+                            Juuz.showMsg('tips', data.msg, 1500, function(){
+                                Juuz.hideMsg();
+                                window.location.reload();
+                            });
+                        } else {
+                            Juuz.showMsg('tips', data.msg, 1500, function(){
+                                Juuz.hideMsg();
+                            });
+                        }
+                    }   
+                })
+            }) 
+            //id 空值隐藏操作按钮
+            if($tds.eq(0).find('input').val() == '' || $tds.eq(10).find('input').val() == '已发送') {
+                $(this).find('td li').eq(1).hide();
+            } else {
+                //显示按钮绑定事件 
+                $tools_show.off('click').on('click', function(){
+                    var id = $tds.eq(0).find('input').val();
+                    $.ajax({
+                        type:"post",
+                        url: "{:U('Reward/rewShow')}",
+                        data:{"id":id},
+                        datatype:"json",
+                        success:function(data) {
+                            $('.list_tools_menu').hide();
+                            if(data.status == 1000) {
+                                Juuz.showMsg('tips', data.msg, 1500, function(){
+                                    Juuz.hideMsg();
+                                    // window.location.reload();
+                                });
+                            } else {
+                                Juuz.showMsg('tips', data.msg, 1500, function(){
+                                    Juuz.hideMsg();
+                                });
+                            }
+                        }   
+                    })
+                })
+            }
+        })
+    })
+}
+</script>
+<!--无限极选择项-->
+<script>
+        var setting = {
+            data: {
+                simpleData: {
+                    enable: true,
+                    idKey : 'id',
+                    pIdKey : 'pid'
+                },
+                key:{
+                    name : 'title'
+                }
+            },
+            callback:{
+                beforeClick: ztreeOnBeforeClick,
+                onClick: ztreeOnClick
+            }
+        };
+        var zNodes ={$list};
+
+
+        function showMenu() {
+            var moreObj = $("#moreSel");
+            var moreOffset = $("#moreSel").offset();
+            $("#DropdownMenuBackground").css({left:moreOffset.left + "px", top:moreOffset.top + moreObj.outerHeight() + "px"}).slideDown("fast");
+        }
+
+        function hideMenu() {
+            $("#DropdownMenuBackground").fadeOut("fast");
+        }
+
+        function ztreeOnBeforeClick(treeId, treeNode) {
+            var check = (treeNode && treeNode.id);
+            if (!check) {
+                console.log("无效的参数");
+            }
+            return check;
+        }
+
+        function ztreeOnClick(event, treeId, treeNode){
+            if (treeNode) {
+                var $moreObj = $("#moreSel");
+                var $moreObjId = $("#moreSelId");
+                var moreObjValue = $moreObj.val();
+                var moreObjIdValue = $moreObjId.val();
+                if(moreObjValue) {
+                    moreObjValue = moreObjValue+','+treeNode.title;
+                } else {
+                    moreObjValue = treeNode.title;
+                }
+                if(moreObjIdValue) {
+                    moreObjIdValue = moreObjIdValue+','+treeNode.id;
+                } else {
+                    moreObjIdValue = treeNode.id;
+                }
+
+                $moreObj.attr("value", moreObjValue);
+                $moreObjId.attr("value", moreObjIdValue);
+                hideMenu();
+            }
+        }
+
+        //光标自动跳转到文本末尾
+        $("#searchForm").on('click', 'input[name="channel"]', function(){
+            var txt = $(this).val(); 
+            $(this).val("").focus().val(txt);
+            hideMenu();
+        })
+
+        $("#searchForm").on('blur', 'input[name="channel"]', function(){
+            var $moreObj = $("#moreSel");
+            var $moreObjId = $("#moreSelId");
+            var moreObjArr = $.trim($moreObj.val());
+            var moreObjIdArr = $.trim($moreObjId.val()).split(",").splice(1,moreObjArr.length);
+            $moreObjId.attr("value",moreObjIdArr.join(","));
+        })
+
+        $(function(){
+            $.fn.zTree.init($("#categoryTree"), setting, zNodes);
+        }) 
+</script>
+</block>

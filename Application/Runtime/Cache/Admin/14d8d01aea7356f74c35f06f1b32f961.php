@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>    <!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -70,7 +70,7 @@
     <div class="heade" id="header">
     <div class="head_box">
         <h1 class="logo">
-            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" /></a>
+            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" width="200px"/></a>
         </h1>
         <div class="account">
             <span class="account_bg_left"></span>
@@ -80,7 +80,7 @@
                 title: '修改密码',
                 url: '<?php echo U("Admin/Public/resetpwd");?>',
                 dataType: 'html'
-            }">修改密码</a>
+            }">修改密码</a> 
             <a href="<?php echo U('Admin/Public/logout');?>" class="account_logout">安全退出</a>
         </div>
         <div class="head_menu">

@@ -316,7 +316,11 @@ var Manage = {
         listStr += '                </i>';
         listStr += '            </td>';
                             }else{
-        listStr += '            <td style="text-align:'+clsVal+';"><span>'+fieldVal+'</span></td>';
+                                if( thead[k].attribute == "title" ) {
+        listStr += '                <td style="text-align:'+clsVal+';"><span title="'+fieldVal+'">'+fieldVal+'</span></td>';
+                                } else {                            
+        listStr += '                <td style="text-align:'+clsVal+';"><span>'+fieldVal+'</span></td>';
+                                }
                             }
                         }
         listStr += '        </tr>';
@@ -337,6 +341,82 @@ var Manage = {
 
         return listStr;
     },
+
+    listTemp2: function(json){
+        var thead = json.thead;
+        var tbody = json.tbody;
+        var toolsOption = json.toolsOption;
+        var showPageNum = json.showPageNum || 10;
+        var currentPageNum = json.currentPage || 1;
+        var totalPage = json.totalPage || 1;
+        var footLength = thead.length;
+
+        var listStr = "";
+        listStr += '<table>';
+        listStr += '    <thead>';
+        listStr += '        <tr>';
+                    for(var i = 0,len = thead.length;i < len; i++){
+                        if(thead[i].width){
+        listStr += '        <th style="width:'+thead[i].width+'px;">'+thead[i].name+'</th>';
+                        }else{
+                            if(thead[i].type == "hidden") {
+                                footLength = footLength-1;
+        listStr += '            <th style="display:none;">'+thead[i].name+'</th>';                        
+                            } else {
+        listStr += '            <th>'+thead[i].name+'</th>';
+                            }
+                        }
+                    }
+        listStr += '        </tr>';
+        listStr += '    </thead>';
+        listStr += '    <tbody>';
+                if(tbody.length > 0){
+                    for(var j = 0,lenj = tbody.length;j < lenj; j++){
+                        var toolsHtml = Manage.getToolsHtml(toolsOption, tbody[j]);
+        listStr += '        <tr class="js_remove">';
+                        for(var k = 0,lenk = thead.length;k < lenk; k++){
+                            var align = thead[k].align || 'center';
+                            if(align == 'left'){
+                                var clsVal = 'left';
+                            }else if(align == 'right'){
+                                var clsVal = 'right';
+                            }else{
+                                var clsVal = 'center';
+                            }
+                            var fieldVal = tbody[j][thead[k].field] || '';
+                            if(thead[k].type == "IMG"){
+        listStr += '            <td class="img" style="text-align:'+clsVal+';"><img src="'+fieldVal+'" /></td>';
+                            }else if(thead[k].type == "TOOLS"){
+        listStr += '            <td style="text-align:'+clsVal+';">';
+        listStr += '                <i class="btn_caozuo js_list_tools">';
+        listStr += '                操作' + toolsHtml;
+        listStr += '                </i>';
+        listStr += '            </td>';
+                            } else if(thead[k].type == "hidden"){
+        listStr += '            <td style="text-align:'+clsVal+';display:none"><input type="text" value="'+fieldVal+'" style="width:100%" readonly="readonly"/></td>';
+                            }else{
+        listStr += '            <td style="text-align:'+clsVal+';"><input type="text" value="'+fieldVal+'" style="width:100%" readonly="readonly"/></td>';
+                            }
+                        }
+        listStr += '        </tr>';
+                    }
+                }else{
+                    totalPage = 1;
+        listStr += '        <tr><td colspan="'+footLength+'">暂无数据</td></tr>';
+                }
+        listStr += '    </tbody>';
+        listStr += '    <tfoot>';
+        listStr += '        <tr>';
+        listStr += '            <td colspan="'+footLength+'">';
+        listStr +=                  Manage.getPagingHtml(currentPageNum, totalPage, showPageNum);
+        listStr += '            </td>';
+        listStr += '        </tr>';
+        listStr += '    </tfoot>';
+        listStr += '</table>';
+
+        return listStr;
+    },
+
 
     getToolsHtml: function(opt, tbody){
         if(!opt){
@@ -439,14 +519,19 @@ var Manage = {
         var $obj = $(obj);
         var url = $obj.attr('action') || window.location.href;
         var data = $(obj).serialize();
+        var baseurl = window.location.href;
+
+        // URL指向Excel跳出
+        if(baseurl.indexOf(url) < 0) return true;
 
         Juuz.ajaxPost(url, data, function(json){
             if(json.statusCode == Juuz.code.ajaxSuccess){
                 Juuz.hideMsg();
 
                 var listTable = Manage.listTemp(json);
+                var listTable2 = Manage.listTemp2(json);
                 var listWrap = $('.ui_list_wrap');
-                listWrap.html(listTable);
+                listWrap.html(listTable2);
                 Manage.uiInit(listWrap);
             }else{
                 Juuz.errorMsg(json.message);

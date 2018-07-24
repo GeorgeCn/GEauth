@@ -1,5 +1,6 @@
 <?php
 return array(
+    LOAD_EXT_CONFIG=>  'database,ThirdSDK,sms',
     'WEB_DOMAIN'        => 'http://'.$_SERVER['HTTP_HOST'],
     'APP_SUB_DOMAIN_RULES'  => array(
 //        'auth.io' => 'Admin',  // admin子域名指向Admin模块
@@ -10,14 +11,14 @@ return array(
         '__API__' => __ROOT__ . '/Public/Api',
     ),
     'URL_MODEL'             => 2,
-    /* 数据库设置 */
+    /* 数据库设置 数据库配置移动到database中
     'DB_TYPE'               => 'mysql',     // 数据库类型
     'DB_HOST'               => '10.63.0.30', // 服务器地址
-    'DB_NAME'               => 'auth',          // 数据库名
+    'DB_NAME'               => 'uu_develop_bak',          // 数据库名
     'DB_USER'               => 'root',      // 用户名
     'DB_PWD'                => 'root',          // 密码
     'DB_PORT'               => '3306',        // 端口
-    'DB_PREFIX'             => 'a_',    // 数据库表前缀
+    'DB_PREFIX'             => '',    // 数据库表前缀
     'DB_PARAMS'             => array(), // 数据库连接参数
     'DB_DEBUG'              => true, // 数据库调试模式 开启后可以记录SQL日志
     'DB_FIELDS_CACHE'       => false,        // 启用字段缓存
@@ -26,6 +27,7 @@ return array(
     'DB_RW_SEPARATE'        => false,       // 数据库读写是否分离 主从式有效
     'DB_MASTER_NUM'         => 1, // 读写分离后 主服务器数量
     'DB_SLAVE_NO'           => '', // 指定从服务器序号
+    */
     /** 以下为权限管理系统(居家必备之良药)切勿删除 **/
     'AUTH_CONFIG'           => array(
         'AUTH_ON'           => true,  // 认证开关
@@ -35,7 +37,7 @@ return array(
         'AUTH_RULE'         => 'a_auth_cate', // 权限规则表
         'AUTH_USER'         => 'a_admin', // 用户信息表
     ),
-    'SHOW_PAGE_TRACE'       => true, //开启调试,上线后删除
+    //'SHOW_PAGE_TRACE'       => true, //开启调试,上线后删除
 	'DATA_CACHE_PREFIX'     =>  'think_auth_',     // 缓存前缀
 	//'DATA_CACHE_TYPE'       => '',
     'ADMIN_UID'                   => 'admin_uid',

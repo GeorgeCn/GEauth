@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>    <!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -63,14 +63,14 @@
 <script src="/Public/Admin/Js/Juuz/Juuz.js"></script>
 <script src="/Public/Admin/Js/Manage/Manage.js"></script>
 
-    <title>标题</title>
+    <title>站点信息</title>
 </head>
 <body>
     <!-- 头部 -->
     <div class="heade" id="header">
     <div class="head_box">
         <h1 class="logo">
-            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" /></a>
+            <a href="#" title="Juuz"><img src="/Public/Admin/Images/logo_header.png" width="200px"/></a>
         </h1>
         <div class="account">
             <span class="account_bg_left"></span>
@@ -80,7 +80,7 @@
                 title: '修改密码',
                 url: '<?php echo U("Admin/Public/resetpwd");?>',
                 dataType: 'html'
-            }">修改密码</a>
+            }">修改密码</a> 
             <a href="<?php echo U('Admin/Public/logout');?>" class="account_logout">安全退出</a>
         </div>
         <div class="head_menu">
@@ -117,7 +117,7 @@ $name = CONTROLLER_NAME; ?>
             </div>
             <div class="col_main">
                 <div class="main_hd">
-                    <h2>列表标题</h2>
+                    <h2>站点信息</h2>
                     <div class="title_tab">
                         <ul class="tab_ul dib-wrap">
                             <?php if(is_array($top_menu_url)): $i = 0; $__LIST__ = $top_menu_url;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class='dib <?php if(in_array((ACTION_NAME), is_array($vo['method'])?$vo['method']:explode(',',$vo['method']))): ?>selected<?php endif; ?>'><a href="<?php echo U($vo['method']);?>"><?php echo ($vo["title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -126,7 +126,39 @@ $name = CONTROLLER_NAME; ?>
                 </div>
  
                 
-      
+	<div style="margin-bottom:20px">
+		<h3>时间:2018.3.1——至今</h3>
+      	<table class="table_one">
+            <tr>
+                <td class="td_title">渠道</td>
+                <td class="td_title">领取/注册数</td>
+                <td class="td_title">开课数</td>
+                <td class="td_title">付费转化数</td>
+                <td class="td_title">付费额</td>
+            </tr>
+            <tr>
+                <td class="td_main">全部</td>
+                <td class="td_main"><?php echo ($list[0]['registNum']); ?></td>
+                <td class="td_main"><?php echo ($list[0]['classNum']); ?></td>
+                <td class="td_main"><?php echo ($list[0]['payNum']); ?></td>
+                <td class="td_main"><?php echo ($list[0]['payTotal']); ?></td>
+            </tr>
+            <tr>
+                <td class="td_main">优氏英语</td>
+                <td class="td_main"><?php echo ($list[1]['registNum']); ?></td>
+                <td class="td_main"><?php echo ($list[1]['classNum']); ?></td>
+                <td class="td_main"><?php echo ($list[1]['payNum']); ?></td>
+                <td class="td_main"><?php echo ($list[1]['payTotal']); ?></td>
+            </tr>
+            <tr>
+                <td class="td_main">至慧学堂</td>
+	            <td class="td_main"><?php echo ($list[2]['registNum']); ?></td>
+                <td class="td_main"><?php echo ($list[2]['classNum']); ?></td>
+                <td class="td_main"><?php echo ($list[2]['payNum']); ?></td>
+                <td class="td_main"><?php echo ($list[2]['payTotal']); ?></td>
+            </tr>
+        </table>
+    </div>
 
             </div>
         </div>

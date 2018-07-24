@@ -1,8 +1,8 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
     <include file="Admin@Public:top"/>
-    <title>标题</title>
+    <title><block name="title">标题</block></title>
 </head>
 <body>
     <!-- 头部 -->
@@ -14,7 +14,7 @@
             </div>
             <div class="col_main">
                 <div class="main_hd">
-                    <h2>列表标题</h2>
+                    <h2><block name="header">列表标题</block></h2>
                     <div class="title_tab">
                         <ul class="tab_ul dib-wrap">
                             <volist name="top_menu_url" id="vo">

@@ -473,18 +473,87 @@ class PrivateController extends PublicController
      **/
     public function _cateList($model, $title, $sort = '', $cache = '')
     {
-        $list = S($cache . UID);
-        if ($list == false) {
+       // $list = S($cache . UID);
+       // if ($list == false) {
             $this->model = D($model);
             $where = array(
-                'status' => 1
+                'status' => 1,
+                'type'=>1
             );
             $list = self::_modelSelect($where, $sort);
             if (!$list) {
                 $list = array();
+            } else {
+                $count = 0;
+                //移除父渠道删除，子渠道遗留数据
+                foreach ($list as $key => $value) {
+                    if(0 == $value['pid']) continue;
+                    $where = array(
+                        'id' => intval($value['pid']),
+                        'status' => 1
+                    );
+                    $info = $this->model->where($where)->count();
+                    if(!$info){
+                        array_splice($list, $key-$count,1);
+                        $count++;
+                    }
+                }
             }
             $arr = array(
-                'id'       => 0,
+                'id'       => 1,
+                'pid'      => null,
+                'title'    => $title,
+                'isParent' => true,
+                'open'     => true,
+            );
+         array_unshift($list, $arr);
+            $list = json_encode($list);
+           // S($cache . UID, $list);
+       // }
+        $this->assign('list', $list);
+    }
+
+    /**
+     * [渠道列表]
+     * @Author   George    
+     * @DateTime 2018-04-19T20:34:06+0800
+     * @param    [type]                   $model                 [要操作的表]
+     * @param    [type]                   $title                 [标题]
+     * @param    string                   $sort                  [排序]
+     * @param    string                   $cache                 [缓存名称]
+     * @return   [type]                                          [description]
+     */
+    public function _channelList($model, $title, $sort = '', $cache = '')
+    {
+        // $list = S($cache . UID);
+        // if ($list == false) {
+            $this->model = D($model);
+            $where = array(
+                'status' => 1,
+                'type' =>1
+            );
+            $field = 'id,channel_name as title,pid,level as sort,status';
+            $list = self::_modelSelect($where, $sort,$field);
+            if (!$list) {
+                $list = array();
+            } else {
+                $count = 0;
+                //移除父渠道删除，子渠道遗留数据
+                foreach ($list as $key => $value) {
+                    if(0 == $value['pid'] || 1 == $value['pid']) continue;
+                    $where = array(
+                        'id' => intval($value['pid']),
+                        'status' => 1
+                    );
+                    $info = $this->model->where($where)->count();
+                    if(!$info){
+                        array_splice($list, $key-$count,1);
+                        $count++;
+                    }
+                }
+            }
+            $arr = array(
+                'id'       => 1,
                 'pid'      => null,
                 'title'    => $title,
                 'isParent' => true,
@@ -492,8 +561,8 @@ class PrivateController extends PublicController
             );
             array_unshift($list, $arr);
             $list = json_encode($list);
-            S($cache . UID, $list);
-        }
+        //     S($cache . UID, $list);
+        // }
         $this->assign('list', $list);
     }
 

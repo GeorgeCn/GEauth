@@ -318,7 +318,6 @@ var Juuz = {
         var value = _data.value || '';
         var param = _data.param || null;
         var btnArr = typeof(_data.btnArr) == 'string' ? Juuz.str2json(_data.btnArr) : _data.btnArr;
-
         if(type == 'switch'){
             var urlArr = url.split("|");
 

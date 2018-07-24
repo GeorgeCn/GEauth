@@ -13,12 +13,12 @@ use Think\Cache;
 defined('THINK_PATH') or exit();
 
 /**
- * Redis缓存驱动 
+ * Redis缓存驱动
  * 要求安装phpredis扩展：https://github.com/nicolasff/phpredis
  */
 class Redis extends Cache {
-	 /**
-	 * 架构函数
+    /**
+     * 架构函数
      * @param array $options 缓存参数
      * @access public
      */
@@ -30,18 +30,24 @@ class Redis extends Cache {
             'host'          => C('REDIS_HOST') ? : '127.0.0.1',
             'port'          => C('REDIS_PORT') ? : 6379,
             'timeout'       => C('DATA_CACHE_TIMEOUT') ? : false,
-            'persistent'    => false,
+            'persistent'    => C('REDIS_PERSISTENT') ? true : false,
         ),$options);
 
         $this->options =  $options;
         $this->options['expire'] =  isset($options['expire'])?  $options['expire']  :   C('DATA_CACHE_TIME');
-        $this->options['prefix'] =  isset($options['prefix'])?  $options['prefix']  :   C('DATA_CACHE_PREFIX');        
-        $this->options['length'] =  isset($options['length'])?  $options['length']  :   0;        
+        $this->options['prefix'] =  isset($options['prefix'])?  $options['prefix']  :   C('DATA_CACHE_PREFIX');
+        $this->options['length'] =  isset($options['length'])?  $options['length']  :   0;
         $func = $options['persistent'] ? 'pconnect' : 'connect';
         $this->handler  = new \Redis;
+
         $options['timeout'] === false ?
             $this->handler->$func($options['host'], $options['port']) :
             $this->handler->$func($options['host'], $options['port'], $options['timeout']);
+
+        $auth = C('REDIS_AUTH')?C('REDIS_AUTH'):false;
+        if($auth){
+            $this->handler->auth($auth);
+        }
     }
 
     /**
@@ -103,5 +109,55 @@ class Redis extends Cache {
     public function clear() {
         return $this->handler->flushDB();
     }
+    /*
+     * save hash
+     * @param string $keyName 缓存变量名
+     * @param array $data  存储数据
+     */
+    public function saveHash($keyName, $data){
+        if(empty($keyName)||empty($data)){
+            return false;
+        }
+        foreach ($data as $key => $val){
+            $this->handler->hMset($keyName,$val);
+        }
+        return $this->handler->hMset($keyName,$data);
+    }
+
+    /*
+     * 获取hash值
+     * @param string $keyName 缓存变量名
+     */
+    public function getHash($keyName){
+        if(empty($keyName)){
+            return false;
+        }
+        try{
+            if(!empty($this->handler->keys($keyName))){
+                return $this->handler->hgetall($keyName);
+            }
+        }catch(\Exception $e){
+            return null;
+        }
+
+    }
+
+    /**
+     * @param $keyName redis的键值
+     * @author lifeng
+     * @description:获取redis的key
+     */
+    public function getKeys($keyName){
+        if(empty($keyName)){
+            return false;
+        }
+        try{
+            return $this->handler->keys($keyName);
+        }catch(\Exception $e){
+            return false;
+        }
+    }
+
 
 }
+

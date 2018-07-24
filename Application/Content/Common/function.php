@@ -10,31 +10,32 @@
  * @author 刘中胜
  * @time 2014-12-5
  **/
-function code($size='24',$length='4',$width='100',$height='40',$verifyName = 'code'){
-    $w = $width-1;
-    $h = $height-1;
-    $image = imagecreate($width,$height);
-    $imagecolor = imagecolorallocate($image,255,255,255);
-    $bordercolor = imagecolorallocate($image,0,0,0);
-    $rectangle  = imagerectangle($image,0,0,$w,$h,$bordercolor);
-    for($i=0;$i<$length;$i++){
+function code($size = '24', $length = '4', $width = '100', $height = '40', $verifyName = 'code')
+{
+    $w = $width - 1;
+    $h = $height - 1;
+    $image = imagecreate($width, $height);
+    $imagecolor = imagecolorallocate($image, 255, 255, 255);
+    $bordercolor = imagecolorallocate($image, 0, 0, 0);
+    $rectangle = imagerectangle($image, 0, 0, $w, $h, $bordercolor);
+    for ($i = 0; $i < $length; $i++) {
         $fontsize = $size;
-        $fontcolor = imagecolorallocate($image,rand(1,120),rand(1,120),rand(1,120));
+        $fontcolor = imagecolorallocate($image, rand(1, 120), rand(1, 120), rand(1, 120));
         $data = 'zxcvbnmasdfghjkqwertyup23456789';
-        $str .= $fontcontent = substr($data,rand(0,strlen($data)-1),1);
-        $x = ($i*$width/$length) + rand(3,10);
-        $y = rand(2,12);
-        imagestring($image,$fontsize,$x,$y,$fontcontent,$fontcolor);
+        $str .= $fontcontent = substr($data, rand(0, strlen($data) - 1), 1);
+        $x = ($i * $width / $length) + rand(3, 10);
+        $y = rand(2, 12);
+        imagestring($image, $fontsize, $x, $y, $fontcontent, $fontcolor);
     }
 
-    session($verifyName,md5($str));
-    for($i=0;$i<200;$i++){
-        $xelcolor = imagecolorallocate($image,rand(80,220),rand(80,220),rand(80,220));
-        imagesetpixel($image,rand(1,$w),rand(1,$h),$xelcolor);
+    session($verifyName, md5($str));
+    for ($i = 0; $i < 200; $i++) {
+        $xelcolor = imagecolorallocate($image, rand(80, 220), rand(80, 220), rand(80, 220));
+        imagesetpixel($image, rand(1, $w), rand(1, $h), $xelcolor);
     }
-    for($i=0;$i<4;$i++){
-        $imageline = imagecolorallocate($image,rand(80,220),rand(80,220),rand(80,220));
-        imageline($image,rand(1,$w),rand(1,$h),rand(1,$w),rand(1,$h),$imageline);
+    for ($i = 0; $i < 4; $i++) {
+        $imageline = imagecolorallocate($image, rand(80, 220), rand(80, 220), rand(80, 220));
+        imageline($image, rand(1, $w), rand(1, $h), rand(1, $w), rand(1, $h), $imageline);
     }
     ob_clean();
     header('content-type:image/png');
@@ -49,8 +50,9 @@ function code($size='24',$length='4',$width='100',$height='40',$verifyName = 'co
  * @author 刘中胜
  * @time 2014-12-5
  **/
-function checkcode($code,$verifyName='code'){
-    $str =strtolower($code);
+function checkcode($code, $verifyName = 'code')
+{
+    $str = strtolower($code);
     return session($verifyName) == MD5($str);
 }
 
@@ -58,11 +60,45 @@ function checkcode($code,$verifyName='code'){
  * 字符串大小写转换
  * @author 刘中胜
  **/
-function letterChange($str,$type=1)
+function letterChange($str, $type = 1)
 {
-    if($type == 1){
+    if ($type == 1) {
         return ucfirst(trim($str));
-    }else{
+    } else {
         return strtolower(trim($str));
     }
+}
+
+/**
+ * 获取渠道名
+ * @param $cId
+ * @return mixed
+ */
+function getChannelNameById($cId)
+{
+    $channelInfo = D('Content/ChannelList')->getChannelInfo($cId);
+    return $channelInfo['channel_name'];
+
+}
+
+/**
+ * 获取活动名
+ * @param $aId
+ * @return mixed
+ */
+function getActivityNameById($aId)
+{
+    $activity = D('Content/Activity')->getRow(['id' => $aId]);
+    return $activity["title"];
+}
+
+/**
+ * 获取活动ID
+ * @param $aName
+ * @return mixed
+ */
+function getActivityIDByName($aName)
+{
+    $activity = D('Content/Activity')->getRow(['title' => $aName]);
+    return $activity["id"];
 }

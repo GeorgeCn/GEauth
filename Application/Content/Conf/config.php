@@ -1,5 +1,4 @@
 <?php
 return array(
-    'PAGENUM'               => 20, //默认展示条数
-    
+    'PAGENUM'               => 10, //默认展示条数
 );

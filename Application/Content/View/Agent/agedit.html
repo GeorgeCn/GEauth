@@ -1,0 +1,90 @@
+<style>
+    .ui_pop_foot{
+        background-color:#F4F5F9;border-top:1px solid #ddd;text-align:right;
+        position:absolute;padding:8px 0;bottom:0;left:0;width:100%;
+    }
+</style> 
+<!--无限极选择项-->
+<script>
+        var settingAdd = {
+            data: {
+                simpleData: {
+                    enable: true,
+                    idKey : 'id',
+                    pIdKey : 'pid'
+                },
+                key:{
+                    name : 'title'
+                }
+            },
+            callback:{
+                beforeClick: ztreeOnBeforeClick,
+                onClick: ztreeOnClickAdd
+            }
+        };
+        var zNodes ={$list};
+
+
+        function showMenuAdd() {
+            var moreObj = $("#moreSelAdd");
+            var moreOffset = $("#moreSelAdd").offset();
+            $("#DropdownMenuBackgroundAdd").css({left:moreOffset.left + "px", top:moreOffset.top + moreObj.outerHeight() + "px"}).slideDown("fast");
+        }
+
+        function hideMenuAdd() {
+            $("#DropdownMenuBackgroundAdd").fadeOut("fast");
+        }
+
+        function ztreeOnBeforeClick(treeId, treeNode) {
+            var check = (treeNode && treeNode.id);
+            if (!check) {
+                console.log("无效的参数");
+            }
+            return check;
+        }
+
+        function ztreeOnClickAdd(event, treeId, treeNode){
+            if (treeNode) {
+                var $moreObj = $("#moreSelAdd");
+                var $moreObjId = $("#moreSelIdAdd");
+        
+                moreObjValue = treeNode.title;
+                moreObjIdValue = treeNode.id;
+
+                $moreObj.attr("value", moreObjValue);
+                $moreObjId.attr("value", moreObjIdValue);
+                hideMenuAdd();
+            }
+        }
+
+        $(function(){
+            $.fn.zTree.init($("#categoryTreeAdd"), settingAdd, zNodes);
+        })
+    
+    </script>
+<form class="clearfix" action="{:U('agedit')}" method="post" onsubmit="return Juuz.ajaxForm(this);">
+    <div class="ui_col_10" style="padding:10px 20px 62px">
+        <input type="hidden" name="id" value="{$info.id}">
+        <div class="ui_col_5">
+            <label class="ui_label">代理姓名 : </label>
+            <input class="ui_text_input" type="text" name="name" value="{$info.name}" data-opt='{
+                type : "require",
+                msg : "请输入学生姓名"
+            }' />
+        </div>
+        <div class="ui_col_5">
+            <label class="ui_label">代理渠道 : </label>
+            <input class="ui_text_input" id="moreSelAdd" type="text" name="channel" style="width:80px;" data-opt='{
+                type : "require",
+                msg : "请选择渠道"
+            }'/>
+            <input id="moreSelIdAdd" type="hidden" name="channel_id" style="width:80px;"/>
+            &nbsp;<a id="menuBtn" href="javascript:;" onclick="showMenuAdd(); return false;">选择</a>
+            <div id="DropdownMenuBackgroundAdd" style="display:none; height:200px; min-width:150px; background-color:white;border:1px solid;overflow-y:auto;overflow-x:auto;"><ul id="categoryTreeAdd" class="ztree"></ul></div>
+            </div>
+
+    </div>
+    <div class="ui_pop_foot">
+        <button type="submit" class="ui_button small mr10 button_all">提 交</button>
+    </div>
+</form>

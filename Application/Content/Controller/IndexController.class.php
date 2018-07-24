@@ -1,8 +1,14 @@
 <?php
 namespace Content\Controller;
-class IndexController extends PublicController {
+use Content\Service\Account\AccountService;
+
+class IndexController extends PublicController 
+{
     public function index(){
+    	$staService = new AccountService();
+    	$data = $staService->getStaticData();
 		//调用首页跳转处理方法
-        self::urlRedirect();
+        $this->assign('list', $data);
+        $this->display('Index/info');
 	}
 }

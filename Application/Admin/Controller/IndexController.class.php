@@ -5,11 +5,13 @@
 // | Copyright (c) www.php63.cc All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: 普罗米修斯 <996674366@qq.com>
+// +----------------------------------------------------------------------
 namespace Admin\Controller;
 class IndexController extends PrivateController {
     public function index(){
         $modules = I('get.module','');
-        echo(123);exit;
         if(!empty($modules)){
             delTemp();
         }

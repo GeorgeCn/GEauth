@@ -1,4 +1,15 @@
-
+\#*
+.\#*
+.*
+!.gitignore
+*.swp
+*~
+*.swo
+$.swn
+.sass-cache
+.htaccess
 *.iml
-
 *.xml
+Application/Runtime
+Application/Common/Conf/database.php
+Application/Admin/Controller/TestController.class.php

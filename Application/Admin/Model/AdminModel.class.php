@@ -2,6 +2,7 @@
 namespace Admin\Model;
 class AdminModel extends \Common\Model\PublicModel
 {
+    protected $trueTableName = 'a_admin';
     /**
      * $_validate 自动验证
      * @author 刘中胜
@@ -150,10 +151,11 @@ class AdminModel extends \Common\Model\PublicModel
             'c.type'     => 0
         );
         $chars = M()
-            ->table('__ADMIN__ a')
-            ->join('LEFT JOIN __CHAR__ c ON a.id=c.id')
+            ->table('a_admin a')
+            ->join('LEFT JOIN `char` c ON a.id=c.id')
             ->where($userWhere)
             ->getField('chars');
+          
         if(!$chars){
             $this->error = '登陆出错,用户名或者密码错误';
             return false;

@@ -225,3 +225,68 @@ function check_cache($file, $time = 0){
 function create_cache($file){
     file_put_contents($file,ob_get_contents());
 }
+
+
+/**
+ * 获取亿美短信服务对象
+ * @return \Common\Lib\Emay
+ */
+function getEmay() {
+    import('ThirdSDK.Emay', APP_PATH . 'Common/Common');
+    return \Common\Lib\Emay::getInstance();
+}
+
+/**
+ * 写入短信发送记录
+ */
+function writeSMSLog($data) {
+    $data['send_body_name'] = '系统自动';
+    array_walk($data['mobile'], function ($val) use ($data) {
+        $data['phone'] = $val;
+        D('Content/SmsSend')->addSms($data);
+    });
+}
+/**
+ * 获取订单号，算法规则待定
+ * @return string
+ */
+function getOrderId() {
+    return getMicrotime();
+}
+/**
+ * 获取毫秒级时间戳
+ * @return int
+ */
+function getMicrotime() {
+    list ($usec, $sec) = explode(" ", microtime());
+    return (( int ) ($usec * 1000) + ( float ) $sec * 1000) . '';
+}
+
+/**
+ * 随机生成6位数密码
+ */
+function randNumber($len = 6, $chars = null)
+{
+    if (is_null($chars)) {
+        $chars = '0123456789';
+    }
+    mt_srand(10000000 * (double)microtime());
+    for ($i = 0, $str = '', $lc = strlen($chars) - 1; $i < $len; $i++) {
+        $str .= $chars[mt_rand(0, $lc)];
+    }
+    return $str;
+}
+
+/*
+ * 获取当前时间
+ */
+function utctime($time = 0) {
+    if ($time == 0) {
+        $time = time();
+    }
+    return ($time - date('Z'));
+}
+//格式化钱数，分=》元
+function formatMoney($money) {
+    return sprintf("%.2f", bcdiv($money, 100, 4));
+}

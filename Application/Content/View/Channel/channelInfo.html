@@ -1,0 +1,32 @@
+<div class="category_info">
+    <include file="Admin@Public:catebut"/>
+     <form action="{:U('upchannel')}" method="post" class="clearfix" onsubmit="return Juuz.ajaxForm(this)">
+        <div class="ui_col_11">
+            <div class="ui_col_2">
+                <label class="ui_label">渠道编号 : </label>
+            <input id="categoryId" class="ui_text_input" readonly="readonly" type="text" name="id"  value="{$info.id}" />
+            </div>
+            <div class="ui_col_3">
+                <label class="ui_label">渠道名称 : </label>
+                <input id="categoryName" class="ui_text_input" type="text" name="channel_name" value="{$info.channel_name}" data-opt='{
+                    type : "require",
+                    msg : "请输入渠道名称"
+                }' />
+            </div>
+            <div class="ui_col_3">
+                <label class="ui_label">渠道标识 : </label>
+                <input id="categoryTag" class="ui_text_input" type="text" name="channel_tag" value="{$info.channel_tag}" data-opt='{
+                    type : "require",
+                    msg : "请输入渠道标识"
+                }' />
+            </div>
+			<div class="ui_col_3">
+				<label class="ui_label">层级 : </label>
+				<input id="categorySort" class="ui_text_input" type="text" name="level" value="{$info.level}" />
+			</div>
+        </div>
+        <div class="ui_col_10 mt20">
+            <button type="submit" id="categoryBtSave" class="ui_button medium r3">保 存</button>
+        </div>
+    </form>
+</div>

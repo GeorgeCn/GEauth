@@ -1,0 +1,27 @@
+<style>
+    .ui_pop_foot{
+        background-color:#F4F5F9;border-top:1px solid #ddd;text-align:right;
+        position:absolute;padding:8px 0;bottom:0;left:0;width:100%;
+    }
+</style> 
+<form class="clearfix" action="{:U('stuedit')}" method="post" onsubmit="return Juuz.ajaxForm(this);">
+    <div class="ui_col_10" style="padding:10px 20px 62px">
+        <input type="hidden" name="id" value="{$info.id}">
+        <div class="ui_col_5">
+            <label class="ui_label">学生姓名 : </label>
+            <input class="ui_text_input" type="text" name="name" value="{$info.name}" data-opt='{
+                type : "require",
+                msg : "请输入学生姓名"
+            }' />
+        </div>
+        <div class="ui_col_5">
+                <label class="ui_label">学生性别</label>
+                <label class="ui_radio"><input type="radio" value="1" name="sex" <in name="$info.sex" value="0">checked</in>/>男</label>
+                <label class="ui_radio"><input type="radio" value="2" name="sex" <in name="$info.sex" value="2">checked</in>/>女</label>
+        </div>
+
+    </div>
+    <div class="ui_pop_foot">
+        <button type="submit" class="ui_button small mr10">提 交</button>
+    </div>
+</form>

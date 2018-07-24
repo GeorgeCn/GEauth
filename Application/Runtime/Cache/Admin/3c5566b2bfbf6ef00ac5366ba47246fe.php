@@ -69,7 +69,7 @@
     <div id="loginWarp">
         <div class="login_warp_main">
             <div class="login_head">
-                <img title="Juuz" src="/Public/Admin/Images/logo_login.png" />
+                <img title="Juuz" src="/Public/Admin/Images/logo_login.png"/>
                 <!--<br><span>后台管理系统</span>-->
             </div>
 

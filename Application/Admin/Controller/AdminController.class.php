@@ -281,7 +281,7 @@ class AdminController extends PrivateController
             'id'     => $id,
             'status' => 1
         );
-        $rules = M('group')->where($where)->getField('rules');
+        $rules = M('a_group')->where($where)->getField('rules');
         $rulesArr = explode(',', $rules);
         $where = array(
             'status' => 1,
@@ -318,7 +318,7 @@ class AdminController extends PrivateController
             'status' => 1,
             'id'     => $groupId
         );
-        $res = M('group')->where($where)->setField('rules', $rules);
+        $res = M('a_group')->where($where)->setField('rules', $rules);
       	if($res){
             delTemp();
       	    $this -> success('分配成功',U('group'));

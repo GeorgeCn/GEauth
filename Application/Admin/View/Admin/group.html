@@ -6,9 +6,9 @@
                             <volist name="editTag" id="vo">
                             <li class="dib">
                                     <a href="{$vo.href}" target="{$vo.target}" data-opt="{$vo['dataopt']['data-opt']}">{$vo['dataopt']['content']}</a>
-                                
+
                             </li>
-                            </volist>
+                            </volist >
                         </ul>
                     </div>
                     <div class="quanxian_wrap clearfix">
@@ -28,7 +28,7 @@
                                         <td><span>{$vo.title}</span></td>
                                         <td>{$vo.title}</td>
                                         <td>
-                                        
+
                                             <a href="javascript:void(0);" target="popDialog" data-opt="{
                                                         title : '编辑管理分组',
                                                         url : '{:U('groupedit',array('id'=>$vo['id']))}'
@@ -47,7 +47,7 @@
                                         </td>
                                     </tr>
                                     </volist>
-                                   
+
                                 </tbody>
                             </table>
                         </div>
@@ -127,9 +127,9 @@
         function delSuccess(obj){
             var className = obj.parents('tr')[0].className;
             if(className.indexOf('active') >= 0){
-                $('#categoryTree').html('<li class="tips">请点击权限按钮进行分配</li>');
-                $('.jsQuanxianSave').hide();
-                $('#currentGroupName').text('');
+//                $('#categoryTree').html('<li class="tips">请点击权限按钮进行分配</li>');
+//                $('.jsQuanxianSave').hide();
+//                $('#currentGroupName').text('');
             }
         }
 

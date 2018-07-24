@@ -43,7 +43,8 @@ class ArticleController extends PublicController{
         $this->assign('info', $info);
         $this->display();
      }
-	    /**
+     
+	/**
      * 分类添加编辑
      * @author 刘中胜
      * @time 2015-12-09
